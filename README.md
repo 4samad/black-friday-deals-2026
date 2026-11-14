@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2013%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-300%2B-blue)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2014%2C%202026-brightgreen)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-167-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 300+ verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 167 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -27,6 +27,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 14** — 9 community-submitted deals merged: Nuelink, RealUptime, SimpleFill, GetYouTubeTranscript, LabEx Pro, Orwellix, DevIntern, DailyRemote, palmscreen
 - **Nov 13** — Epic Games Store Black Friday sales confirmed live: Epic Savings (Nov 12–26) + Premium Editions (Nov 17–Dec 1)
 - **Nov 13** — Skylum Luminar confirmed: $99 Desktop / $139 All Platforms / $159 Max (up to 77% OFF, through Nov 30)
 - **Nov 13** — Steam update: no Black Friday storewide sale in 2026 (Autumn Sale ended Oct 8); Winter Sale starts Dec 17
