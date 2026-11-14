@@ -118,6 +118,11 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [RoboForm](https://roboform.com/) | Cross-platform password manager | **64% OFF** annual | ✅ |
 | [Bitdefender](https://www.bitdefender.com/) | Antivirus + VPN + password manager | **Up to 78% OFF** — Premium from $12.99 | ✅ |
 | [1Password](https://1password.com/) | Password manager for teams & families | **~50% OFF** first year — Individual & Families (new customers) | ✅ |
+| [OffSeq Threat Radar](https://radar.offseq.com/pricing) | CVE, CISA KEV and exploit intelligence with API and SBOM scans | **50% OFF** first month or year, applied automatically (ends Dec 1) | ✅ |
+| [OffSeq Breach](https://breach.offseq.com/#pricing) | Leaked-credential monitoring for company domains | **50% OFF** first billing period — code `BLACK` (ends Dec 2) | ✅ |
+| [OffSeq Mirage](https://mirage.offseq.com/pricing) | Honeypot threat intelligence with attacker attribution | **50% OFF** first 3 months — code `BFCM2026` (ends Nov 30) | ✅ |
+| [Guard by OffSeq](https://guard.report/monitoring) | Website security and NIS2/GDPR scan with monitoring | **50% OFF** full report and first month of monitoring, applied automatically (ends Dec 1) | ✅ |
+| [OffSeq Pulse](https://pulse.offseq.com/pricing) | Device posture agent for NIS2 and CIS v8.1, hosted in Germany | **50% OFF** first year or month for new customers, applied automatically (ends Dec 2) | ✅ |
 
 ## ☁️ Cloud, Hosting & Domains
 
