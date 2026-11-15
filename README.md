@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2015%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-167-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-170-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 167 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 170 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -27,6 +27,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 15** — 3 community deals merged: Wovo (50% OFF), CleanClip (30% OFF), ScreenSage Pro (up to 53% OFF)
 - **Nov 15** — Topaz Labs Black Friday sale confirmed live: up to 67% OFF bundles, 15% OFF annual single-app plans (through Dec 1)
 - **Nov 15** — Waves Plugins Black Friday Month sale confirmed: 200 plugins, 3 for $49.99 / 6 for $99.98 (through Nov 26)
 - **Nov 14** — 9 community-submitted deals merged: Nuelink, RealUptime, SimpleFill, GetYouTubeTranscript, LabEx Pro, Orwellix, DevIntern, DailyRemote, palmscreen
