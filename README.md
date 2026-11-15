@@ -1,6 +1,6 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2014%2C%202026-brightgreen)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2015%2C%202026-brightgreen)](#)
 [![Deals](https://img.shields.io/badge/Total%20Deals-167-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
@@ -27,6 +27,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 15** — Topaz Labs Black Friday sale confirmed live: up to 67% OFF bundles, 15% OFF annual single-app plans (through Dec 1)
+- **Nov 15** — Waves Plugins Black Friday Month sale confirmed: 200 plugins, 3 for $49.99 / 6 for $99.98 (through Nov 26)
 - **Nov 14** — 9 community-submitted deals merged: Nuelink, RealUptime, SimpleFill, GetYouTubeTranscript, LabEx Pro, Orwellix, DevIntern, DailyRemote, palmscreen
 - **Nov 13** — Epic Games Store Black Friday sales confirmed live: Epic Savings (Nov 12–26) + Premium Editions (Nov 17–Dec 1)
 - **Nov 13** — Skylum Luminar confirmed: $99 Desktop / $139 All Platforms / $159 Max (up to 77% OFF, through Nov 30)
@@ -474,13 +476,13 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Plugin Boutique](https://www.pluginboutique.com/) | Plugin marketplace | **Up to 95% OFF** select plugins | ✅ |
 | [Ableton Live 12](https://www.ableton.com/) | Professional DAW | ~25% OFF (up to 39% at Thomann) | ⏳ |
 | [Native Instruments Komplete](https://www.native-instruments.com/) | Instruments & sample libraries | **50-70% OFF** bundles | ⏳ |
-| [Waves Plugins](https://www.waves.com/) | Audio plugins | **80-90% OFF** | ⏳ |
+| [Waves Plugins](https://www.waves.com/) | Audio plugins | **BF Month Sale** — 200 plugins, 3 for $49.99 / 6 for $99.98 (through Nov 26) | ✅ |
 
 ### Photo & Video Editing
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| [Topaz Labs](https://www.topazlabs.com/) | AI photo/video enhancement | ~43-60% OFF bundles | ⏳ |
+| [Topaz Labs](https://www.topazlabs.com/sale) | AI photo/video enhancement | **Up to 67% OFF** bundles, 15% OFF annual single apps — Studio $299/yr (reg $499), existing users all apps $99/yr (through Dec 1) | ✅ |
 | [Skylum Luminar](https://skylum.com/) | AI photo editor (renamed from Luminar Neo) | **Up to 77% OFF** — $99 Desktop / $139 All Platforms / $159 Max (through Nov 30) | ✅ |
 | [Capture One Pro](https://www.captureone.com/) | RAW processor | ~20-30% OFF (Nov 20–27) | ⏳ |
 
@@ -576,7 +578,7 @@ This repo is maintained annually. Archives will be preserved as `README_2026.md`
 
 ---
 
-**Last updated:** November 13, 2026
+**Last updated:** November 15, 2026
 
 **Disclaimer:** Prices and availability may change. Always verify on the vendor's official site before purchasing. This repo is community-maintained and not affiliated with any listed vendor.
 
