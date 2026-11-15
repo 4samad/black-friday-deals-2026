@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2015%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-170-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-191-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 170 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 191 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -27,6 +27,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 15** — 16 new deals added from cross-referencing competitor repos: TypingMind, BoltAI, MindPal, Rezi, Proxyman, SaaSykit, Piloterr, Poedit, Wireless Operator, AppSec.training, Vibe App Scanner, anon.li, Koofr, FindExams, LS Graphics, Lineicons
+- **Nov 15** — OffSeq security suite (5 tools) and SaaSBold confirmed live
 - **Nov 15** — 3 community deals merged: Wovo (50% OFF), CleanClip (30% OFF), ScreenSage Pro (up to 53% OFF)
 - **Nov 15** — Topaz Labs Black Friday sale confirmed live: up to 67% OFF bundles, 15% OFF annual single-app plans (through Dec 1)
 - **Nov 15** — Waves Plugins Black Friday Month sale confirmed: 200 plugins, 3 for $49.99 / 6 for $99.98 (through Nov 26)
@@ -80,7 +82,11 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [BacklinkAgent](https://backlinkagent.com/) | SEO backlink tool with developer API | **50% OFF** annual (Nov 20 – Dec 11) | ✅ |
 | [DropDMG](https://c-command.com/dropdmg/) | macOS disk image utility for app distribution | **40% OFF** | ✅ |
 | [JetBrains](https://www.jetbrains.com/) | IntelliJ IDEA, PyCharm, WebStorm, GoLand | ~25% OFF (unverified) | ⏳ |
-| [SaaSBold](https://saasbold.com/) | Next.js SaaS boilerplate | ~40-50% OFF | ⏳ |
+| [SaaSBold](https://saasbold.com/) | Next.js SaaS boilerplate | **40% OFF** + Free AI Starter Kit — code `BLFCM2026` (Nov 18 – Dec 2) | ✅ |
+| [SaaSykit](https://saasykit.com/) | Laravel SaaS starter kit | **50% OFF** all versions — code `BLACKFRIDAY26` (Nov 14 – Dec 6) | ✅ |
+| [Proxyman](https://proxyman.io/) | macOS HTTP debugging proxy | **30% OFF** all plans — code `BF2026` (Nov 16 – Dec 3) | ✅ |
+| [Piloterr](https://piloterr.com/) | Web scraping & data extraction API | **50% OFF** first 3 months — code `BLACKFRIDAY50` (through Nov 30) | ✅ |
+| [Poedit](https://poedit.net/) | Translation editor (gettext/XLIFF) | **30% OFF** — code `BF26` (Nov 4 – Dec 3) | ✅ |
 | [CodedThemes](https://codedthemes.com/) | React/Angular/Vue admin dashboards | **40% OFF** storewide | ⏳ |
 | [Paperform](https://paperform.co/) | No-code form builder with developer API | **50% OFF** annual | ⏳ |
 | [RealUptime](https://realuptime.io/pricing) | Uptime monitoring, status pages and error tracking on one plan | **50% OFF for life** for the first 20 customers, then **40% OFF** the first year; automatic, no code (Nov 23 – Nov 30) | ✅ |
@@ -103,6 +109,9 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [HackTheBox](https://www.hackthebox.com/) | Pentesting labs & Academy | **25-40% OFF** annual plans | ⏳ |
 | [TryHackMe](https://tryhackme.com/) | Beginner-friendly cyber training | **~40% OFF** annual | ⏳ |
 | [TCM Security](https://academy.tcm-sec.com/) | Practical ethical hacking courses | **~20% OFF** exams | ⏳ |
+| [Wireless Operator](https://thexero.co.uk/wirelessoperator/) | Wi-Fi pentesting course by TheXero | **67% OFF** — $599 → $197 (Nov 10 – Dec 1) | ✅ |
+| [AppSec.training](https://appsec.training/) | Application security & DevSecOps courses | **50% OFF** — code `blackfriday` (Nov 13 – Dec 31) | ✅ |
+| [Vibe App Scanner](https://vibeappscanner.com/) | Source-code + live-app security scanner | **60% OFF** first month Go/Pro — auto-applied (Nov 10 – Nov 30) | ✅ |
 
 ### VPN Services
 
@@ -127,6 +136,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [OffSeq Mirage](https://mirage.offseq.com/pricing) | Honeypot threat intelligence with attacker attribution | **50% OFF** first 3 months — code `BFCM2026` (ends Nov 30) | ✅ |
 | [Guard by OffSeq](https://guard.report/monitoring) | Website security and NIS2/GDPR scan with monitoring | **50% OFF** full report and first month of monitoring, applied automatically (ends Dec 1) | ✅ |
 | [OffSeq Pulse](https://pulse.offseq.com/pricing) | Device posture agent for NIS2 and CIS v8.1, hosted in Germany | **50% OFF** first year or month for new customers, applied automatically (ends Dec 2) | ✅ |
+| [anon.li](https://anon.li/) | Privacy tools: email aliases, E2E encrypted file sharing | **40% OFF** all paid plans 12 months — code `BLKFRI40` (Nov 2 – Dec 6) | ✅ |
 
 ## ☁️ Cloud, Hosting & Domains
 
@@ -161,6 +171,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 |---------|-------------|------|--------|
 | [Namecheap](https://www.namecheap.com/) | .com + free WHOIS privacy for life | **Up to 97% OFF** bundles | ⏳ |
 | [Cloudflare Registrar](https://www.cloudflare.com/) | Domains at wholesale cost | No sale — always at cost ($11.17 .com) | ℹ️ |
+| [Koofr](https://koofr.eu/) | EU privacy-focused cloud storage (GDPR) | **55% OFF** — code `BF2026` | ✅ |
 
 ## 🤖 AI & ML Tools
 
@@ -175,6 +186,10 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Grammarly](https://www.grammarly.com/) | AI writing assistant | ~50% OFF Pro plans | ⏳ |
 | [GetYouTubeTranscript](https://getyoutubetranscript.com/pricing) | YouTube transcripts: web app, Chrome extension, API | ♾️ **Lifetime $149 once** — 3,000 credits/month, first 100 buyers (Nov 14 – Dec 10) | ✅ |
 | [Orwellix](https://orwellix.com/lifetime-deal?utm_source=shashankt-bf2026&utm_medium=deal-directory&utm_campaign=lifetime-deal-2026) | AI writing editor with reviewable agent edits, grammar, readability & plagiarism checks | **47% OFF** vs a year of Premium — Lifetime plan $249 once instead of $468/yr, no code needed, first 300 buyers (Nov 12 – Dec 31) | ✅ |
+| [TypingMind](https://www.typingmind.com/) | AI chat UI for ChatGPT, Claude, Gemini with plugins & agents | ♾️ **60% OFF** Lifetime Premium — code `BLACKFRIDAY2026` (Nov 2 – Dec 15) | ✅ |
+| [BoltAI](https://boltai.com/) | Native macOS AI workspace (multi-model) | **40% OFF** Pro/Lifetime — code `BFCM2026` (Nov 2 – Dec 1) | ✅ |
+| [MindPal](https://mindpal.io/) | AI agents & workflow builder | **60% OFF** first year any annual plan — code `BLACKFRIDAY2026` (Nov 10 – Dec 11) | ✅ |
+| [Rezi](https://www.rezi.ai/) | AI resume builder | **70% OFF** Pro 3 months — code `Blackfriday2026` (Nov 13 – Dec 11) | ✅ |
 
 ### AI Image & Video
 
@@ -231,6 +246,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | AZ-900 Azure Fundamentals | Microsoft Azure entry cert | **$44.99** (reg $99) | ⏳ |
 | CLF-C02 AWS Cloud Practitioner | AWS entry cert | **$36.99** (reg $100) | ⏳ |
+| [FindExams](https://findexams.com/) | Exam simulators: PMP, CBAP, ITIL 4, more | **Up to 50% OFF** (Nov 16 – Nov 30) | ✅ |
 
 ### Tech Books
 
@@ -250,6 +266,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Affinity Suite V2](https://affinity.serif.com/) | Designer, Photo, Publisher | **FREE** (Canva made Affinity free; AI features need paid Canva) | ✅ |
 | [Adobe Creative Cloud](https://www.adobe.com/) | Photoshop, Illustrator, Premiere | **Up to 50% OFF** All Apps first year | ⏳ |
 | [Envato Elements](https://elements.envato.com/) | Unlimited stock assets & templates | **Up to 50% OFF** annual | ⏳ |
+| [LS Graphics](https://ls.graphics/) | Mockup editor + 100+ mockup scene bundles | **50% OFF** all bundles & plans (Nov 6 – Dec 1) | ✅ |
+| [Lineicons](https://lineicons.com/) | 30,000+ vector icons in 10 styles | **40% OFF** — code `BLFCM2026` (Nov 18 – Dec 2) | ✅ |
 
 ### SEO & Marketing
 
