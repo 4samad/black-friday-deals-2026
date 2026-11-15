@@ -84,6 +84,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Paperform](https://paperform.co/) | No-code form builder with developer API | **50% OFF** annual | ⏳ |
 | [RealUptime](https://realuptime.io/pricing) | Uptime monitoring, status pages and error tracking on one plan | **50% OFF for life** for the first 20 customers, then **40% OFF** the first year; automatic, no code (Nov 23 – Nov 30) | ✅ |
 | [DevIntern](https://devintern.com/pricing/) | Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations | **40% OFF** the first invoice — code `BLACKFRIDAY26` (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo | ✅ |
+| [Wovo](https://wovo.one/#pricing) | AI/MCP that turns any AI into a multi-device agent across your computers | **50% OFF** Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026) | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -265,6 +266,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [SimpleFill](https://simplefill.app) | Text expansion, AI actions & one-click form filling in your browser | **25% OFF** one-time plans ($29 → $21.75), code `LAUNCH` (Nov 10 – Dec 7) | ✅ |
 | [DailyRemote](https://dailyremote.com/get-started) | Remote job board with salary filters and daily job alerts | **39% OFF** Premium monthly, quarterly and yearly plans — code `BFBNRTZSY` (Nov 12 – Dec 1) | ✅ |
 | [palmscreen](https://www.palmscreen.app/black-friday/) | Native Mac screen recorder with auto-zoom, editor and screenshots | **34% OFF** ($19 instead of $29, one-time) — code `BLACKWEEK` (Nov 23 – Nov 30) | ⏳ |
+| [CleanClip](https://pricing.cleanclip.cc/src) | Mac clipboard manager | **30% OFF** — Standard $19.99 → $13.99, Pro $29.99 → $20.99, code `BF2026` (through Dec 15, 2026) | ✅ |
+| [ScreenSage Pro](https://screensage.pro) | Native Mac screen recorder | **Up to 53% OFF** — Pro $149 → $79.90 code `BFS2026P` (46%); Lifetime $449 → $209.90 code `BFS2026L` (53%) (through Dec 15, 2026) | ✅ |
 
 ### Automation
 
