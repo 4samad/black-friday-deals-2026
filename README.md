@@ -292,6 +292,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [palmscreen](https://www.palmscreen.app/black-friday/) | Native Mac screen recorder with auto-zoom, editor and screenshots | **34% OFF** ($19 instead of $29, one-time) — code `BLACKWEEK` (Nov 23 – Nov 30) | ⏳ |
 | [CleanClip](https://pricing.cleanclip.cc/src) | Mac clipboard manager | **30% OFF** — Standard $19.99 → $13.99, Pro $29.99 → $20.99, code `BF2026` (through Dec 15, 2026) | ✅ |
 | [ScreenSage Pro](https://screensage.pro) | Native Mac screen recorder | **Up to 53% OFF** — Pro $149 → $79.90 code `BFS2026P` (46%); Lifetime $449 → $209.90 code `BFS2026L` (53%) (through Dec 15, 2026) | ✅ |
+| [Leave Me Alone](https://leavemealone.com/pricing/) | Unsubscribe from unwanted emails in one click, block senders, bundle newsletters into a digest | 💸 **83% OFF** Unlimited plan — $59/year instead of $30/month, every inbox you own, same price at renewal, no code (Nov 16 – Dec 8) | ✅ |
 
 ### Automation
 
