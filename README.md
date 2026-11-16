@@ -198,6 +198,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Hostinger AI Builder](https://www.hostinger.com/) | AI website builder + hosting | **Up to 85% OFF** | ✅ |
 | [Pictory](https://pictory.ai/) | AI video creation from text | ~50% OFF annual — code `BLACKFRIDAY2026` | ⏳ |
 | [Canva Pro](https://www.canva.com/) | Design + AI image generation | ~50% OFF first 3 months | ⏳ |
+| [Renderly](https://renderly.video/pricing) | Video rendering API: JSON template and data in, MP4 out | **30% OFF** first payment of Creator or Business - code `BLACKFRIDAY2026` (Nov 27 - Dec 1) | ✅ |
 
 ### AI SEO & Marketing
 
