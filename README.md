@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2015%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-191-blue)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2017%2C%202026-brightgreen)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-201-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 191 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 201 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -27,6 +27,12 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 17** — 5 community PRs merged: Perisclaw, Outpublished, Faivelo, Refine, Paste
+- **Nov 17** — Adobe Creative Cloud BF sale confirmed: 57% OFF All Apps ($29.99/mo first year)
+- **Nov 17** — Audible BF deal live: $0.99/mo for 3 months + $20 credit
+- **Nov 17** — QuickBooks 70% OFF confirmed, Paramount+ 50% OFF annual with code `SAVEANNUAL50`
+- **Nov 17** — TCM Security sale live: 20% OFF certs, 50% OFF Academy membership
+- **Nov 17** — AirPods Pro 3 now $179 ($70 off), Apple Watch Series 12 from $329
 - **Nov 15** — 16 new deals added from cross-referencing competitor repos: TypingMind, BoltAI, MindPal, Rezi, Proxyman, SaaSykit, Piloterr, Poedit, Wireless Operator, AppSec.training, Vibe App Scanner, anon.li, Koofr, FindExams, LS Graphics, Lineicons
 - **Nov 15** — OffSeq security suite (5 tools) and SaaSBold confirmed live
 - **Nov 15** — 3 community deals merged: Wovo (50% OFF), CleanClip (30% OFF), ScreenSage Pro (up to 53% OFF)
@@ -108,7 +114,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [INE Security](https://ine.com/) | Pentesting, blue team, cloud security | **~50% OFF** Premium (sale starts Nov 20) | ⏳ |
 | [HackTheBox](https://www.hackthebox.com/) | Pentesting labs & Academy | **25-40% OFF** annual plans | ⏳ |
 | [TryHackMe](https://tryhackme.com/) | Beginner-friendly cyber training | **~40% OFF** annual | ⏳ |
-| [TCM Security](https://academy.tcm-sec.com/) | Practical ethical hacking courses | **~20% OFF** exams | ⏳ |
+| [TCM Security](https://academy.tcm-sec.com/) | Practical ethical hacking courses | **20% OFF** certifications & live training, 💸 **50% OFF** Academy membership | ✅ |
 | [Wireless Operator](https://thexero.co.uk/wirelessoperator/) | Wi-Fi pentesting course by TheXero | **67% OFF** — $599 → $197 (Nov 10 – Dec 1) | ✅ |
 | [AppSec.training](https://appsec.training/) | Application security & DevSecOps courses | **50% OFF** — code `blackfriday` (Nov 13 – Dec 31) | ✅ |
 | [Vibe App Scanner](https://vibeappscanner.com/) | Source-code + live-app security scanner | **60% OFF** first month Go/Pro — auto-applied (Nov 10 – Nov 30) | ✅ |
@@ -193,7 +199,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Rezi](https://www.rezi.ai/) | AI resume builder | **70% OFF** Pro 3 months — code `Blackfriday2026` (Nov 13 – Dec 11) | ✅ |
 | [Refine](https://refine.sh/) | Offline AI writing assistant for Mac with grammar and autocomplete (36 languages, local models) | **35% OFF** one-time license, no code needed (Nov 15 - Nov 30) | ✅ |
 | [TypeBoost](https://typeboost.ai/?ref=black-friday-deals-2026) | AI writing in every app on Mac, plus an iPhone keyboard | **50% OFF** first year of Pro annual ($60 → $30) — code `TYPEBOOST50` (Nov 23 – Nov 30) | ⏳ |
-| [Perisclaw](https://perisclaw.com/pricing?utm_source=github-shashankt255&utm_medium=deal-listing&utm_campaign=cyber-monday-2026) | AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks | **40% OFF** annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1) | ⏳ |
+| [Perisclaw](https://perisclaw.com/pricing) | AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks | **40% OFF** annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1) | ⏳ |
 
 ### AI Image & Video
 
@@ -269,7 +275,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Affinity Suite V2](https://affinity.serif.com/) | Designer, Photo, Publisher | **FREE** (Canva made Affinity free; AI features need paid Canva) | ✅ |
-| [Adobe Creative Cloud](https://www.adobe.com/) | Photoshop, Illustrator, Premiere | **Up to 50% OFF** All Apps first year | ⏳ |
+| [Adobe Creative Cloud](https://www.adobe.com/) | Photoshop, Illustrator, Premiere | 💸 **57% OFF** All Apps first year ($29.99/mo, reg $69.99); students 77% OFF ($15.99/mo) — through Nov 27 | ✅ |
 | [Envato Elements](https://elements.envato.com/) | Unlimited stock assets & templates | **Up to 50% OFF** annual | ⏳ |
 | [LS Graphics](https://ls.graphics/) | Mockup editor + 100+ mockup scene bundles | **50% OFF** all bundles & plans (Nov 6 – Dec 1) | ✅ |
 | [Lineicons](https://lineicons.com/) | 30,000+ vector icons in 10 styles | **40% OFF** — code `BLFCM2026` (Nov 18 – Dec 2) | ✅ |
@@ -301,7 +307,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Leave Me Alone](https://leavemealone.com/pricing/) | Unsubscribe from unwanted emails in one click, block senders, bundle newsletters into a digest | 💸 **83% OFF** Unlimited plan — $59/year instead of $30/month, every inbox you own, same price at renewal, no code (Nov 16 – Dec 8) | ✅ |
 | [DigiCard Pro](https://digicard.pro/?ref=black-friday-deals-2026) | Digital business card for Apple & Google Wallet | **50% OFF** Pro, one-time ($49.99 → $24.99) — code `DIGI50` (Nov 23 – Nov 30) | ⏳ |
 | [Wishbar](https://wishbar.app/black-friday) | Mac menu bar app: type what you want and your own ChatGPT or Claude builds a live widget | **50% OFF** one-time licences, no code needed: 1 Mac $39 → $19, 2 Macs $49 → $24, 5 Macs $69 → $34 (Nov 16 – Dec 7) | ✅ |
-| [Paste](https://pasteapp.io/black-friday-2026?ref=shashankt255) | Paste is a productivity app for Mac, iPhone, and iPad that remembers everything you copy | 💸 **50% OFF** the first year of Annual ($29.99 → $14.99), code `BLACKFRIDAY2026` (Nov 20 – Dec 1) | ⏳ |
+| [Paste](https://pasteapp.io/black-friday-2026) | Paste is a productivity app for Mac, iPhone, and iPad that remembers everything you copy | 💸 **50% OFF** the first year of Annual ($29.99 → $14.99), code `BLACKFRIDAY2026` (Nov 20 – Dec 1) | ⏳ |
 
 ### Automation
 
@@ -439,7 +445,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| AirPods Pro 3 | Apple ANC earbuds | **~$199.99** (was $249) | ✅ |
+| AirPods Pro 3 | Apple ANC earbuds | **$179** ($70 off, was $249) | ✅ |
 | AirPods 4 | Latest Apple earbuds | Best-ever pricing at Amazon | ✅ |
 | Sony WH-1000XM6 | Premium ANC over-ear | **$378** at Amazon | ✅ |
 
@@ -465,7 +471,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Xero](https://www.xero.com/) | Cloud accounting & invoicing | **90% OFF** for 4 months | ✅ |
-| [QuickBooks Online](https://quickbooks.intuit.com/) | Small business accounting | **50-70% OFF** for 3 months (new customers) | ⏳ |
+| [QuickBooks Online](https://quickbooks.intuit.com/) | Small business accounting | 💸 **70% OFF** for 3 months, all plans (new customers) — ends Nov 29 | ✅ |
 | [FreshBooks](https://www.freshbooks.com/) | Freelancer accounting | **80% OFF** 4 months — Lite $4.60/mo, Plus $8.60/mo, Premium $14/mo (Oct 14 – Dec 31) | ✅ |
 
 ### CRM & Sales
@@ -500,8 +506,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | Disney+ & Hulu Bundle (With Ads) | Movies, shows, originals | ~$4.99/mo for 12 months (reg ~$12.99) | ⏳ |
 | Apple TV+ | Apple original content | $5.99/mo for 6 months (reg $12.99) | ⏳ |
-| Paramount+ | CBS/Paramount streaming | ~$2.99/mo for 2 months | ⏳ |
-| Audible Premium Plus | Audiobook subscription | **$1/mo** for 3 months + $20 credit (reg $14.95) | ⏳ |
+| [Paramount+](https://www.paramountplus.com/) | CBS/Paramount streaming | 💸 **50% OFF** Premium annual ($69.99/yr, reg $139.99) — code `SAVEANNUAL50` | ✅ |
+| [Audible](https://www.audible.com/) | Audiobook subscription | 💸 **$0.99/mo** for 3 months + $20 credit (reg $8.99/mo) — ends Dec 28 | ✅ |
 | Kindle Unlimited | Unlimited ebook reading | **$0.99** for 3 months (reg $11.99/mo) | ⏳ |
 
 ### Music Production
@@ -530,8 +536,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Oura Ring Gen 4](https://ouraring.com/) | Smart ring for sleep & recovery | **10-20% OFF** + free month membership | ✅ |
-| [Whoop 5.0](https://www.whoop.com/) | Strain & recovery monitor | Up to **$396 savings** on 5-year ($10/mo) — sale starts Nov 19 | ✅ |
-| Apple Watch Series 11 | Health/fitness smartwatch | ~$50-60 off ($339-349, reg $399) | ⏳ |
+| [Whoop 5.0](https://www.whoop.com/) | Strain & recovery monitor | 2-year $299 (was $398), 3-year $399 (was $597) — main sale Nov 19 – Dec 1 | ✅ |
+| Apple Watch Series 12 | Health/fitness smartwatch | **$329** 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off) | ✅ |
 | Garmin Forerunner 265 | GPS running watch | ~$100 off ($299, reg $399) | ⏳ |
 
 ### Standing Desks & Chairs
