@@ -119,9 +119,17 @@ def count_deals(categories):
     confirmed = 0
     expected = 0
     total = 0
+    skip_titles = ('retailer', 'contributing', 'past years', 'table of contents')
+    seen = set()
     for cat in categories:
+        if any(s in cat['title'].lower() for s in skip_titles):
+            continue
         for table in cat["tables"]:
             for row in table["rows"]:
+                key = row["name"].lower().strip()
+                if key in seen:
+                    continue
+                seen.add(key)
                 total += 1
                 if row["status"] == "confirmed":
                     confirmed += 1
@@ -136,10 +144,11 @@ def generate_html(categories):
 
     cat_nav = ""
     cat_sections = ""
+    skip_titles = ('retailer', 'contributing', 'past years', 'table of contents')
+    global_seen = set()
 
     for cat in categories:
-        # Skip non-deal sections
-        if 'retailer' in cat['title'].lower() or 'contributing' in cat['title'].lower() or 'past years' in cat['title'].lower():
+        if any(s in cat['title'].lower() for s in skip_titles):
             continue
 
         emoji_match = re.match(r'^(\S+)\s+(.+)$', cat['title'])
@@ -150,7 +159,13 @@ def generate_html(categories):
             emoji = ""
             name = cat['title']
 
-        cat_count = sum(len(t["rows"]) for t in cat["tables"])
+        cat_count = 0
+        for t in cat["tables"]:
+            for r in t["rows"]:
+                key = r["name"].lower().strip()
+                if key not in global_seen:
+                    cat_count += 1
+                    global_seen.add(key)
         cat_nav += f'<a href="#{cat["id"]}" class="nav-chip">{emoji} {name} <span class="chip-count">{cat_count}</span></a>\n'
 
         tables_html = ""
@@ -206,7 +221,8 @@ def generate_html(categories):
                         .replace("{{CONFIRMED}}", str(confirmed)) \
                         .replace("{{EXPECTED}}", str(expected)) \
                         .replace("{{DATE}}", today) \
-                        .replace("{{CATEGORIES}}", str(len([c for c in categories if 'retailer' not in c['title'].lower() and 'contributing' not in c['title'].lower() and 'past years' not in c['title'].lower()])))
+                        .replace("{{CATEGORIES}}", str(len([c for c in categories if not any(s in c['title'].lower() for s in ('retailer', 'contributing', 'past years', 'table of contents'))]))) \
+                        .replace("{{ISO_DATE}}", date.today().isoformat())
 
 
 HTML_TEMPLATE = r'''<!DOCTYPE html>
@@ -240,7 +256,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   "name": "Black Friday & Cyber Monday 2026 Deals",
   "description": "The largest curated collection of Black Friday and Cyber Monday 2026 deals with 300+ verified deals across 12 categories.",
   "url": "https://shashankt255.github.io/black-friday-deals-2026/",
-  "dateModified": "2026-11-14",
+  "dateModified": "{{ISO_DATE}}",
   "author": {"@type": "Person", "name": "Shashankt255", "url": "https://github.com/Shashankt255"}
 }
 </script>
