@@ -193,6 +193,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Rezi](https://www.rezi.ai/) | AI resume builder | **70% OFF** Pro 3 months — code `Blackfriday2026` (Nov 13 – Dec 11) | ✅ |
 | [Refine](https://refine.sh/) | Offline AI writing assistant for Mac with grammar and autocomplete (36 languages, local models) | **35% OFF** one-time license, no code needed (Nov 15 - Nov 30) | ✅ |
 | [TypeBoost](https://typeboost.ai/?ref=black-friday-deals-2026) | AI writing in every app on Mac, plus an iPhone keyboard | **50% OFF** first year of Pro annual ($60 → $30) — code `TYPEBOOST50` (Nov 23 – Nov 30) | ⏳ |
+| [Perisclaw](https://perisclaw.com/pricing?utm_source=github-shashankt255&utm_medium=deal-listing&utm_campaign=cyber-monday-2026) | AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks | **40% OFF** annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1) | ⏳ |
 
 ### AI Image & Video
 
