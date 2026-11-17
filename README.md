@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2017%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-201-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-215-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 201 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 215 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -27,6 +27,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
 - **Nov 17** — 5 community PRs merged: Perisclaw, Outpublished, Faivelo, Refine, Paste
 - **Nov 17** — Adobe Creative Cloud BF sale confirmed: 57% OFF All Apps ($29.99/mo first year)
 - **Nov 17** — Audible BF deal live: $0.99/mo for 3 months + $20 credit
@@ -118,6 +119,18 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Wireless Operator](https://thexero.co.uk/wirelessoperator/) | Wi-Fi pentesting course by TheXero | **67% OFF** — $599 → $197 (Nov 10 – Dec 1) | ✅ |
 | [AppSec.training](https://appsec.training/) | Application security & DevSecOps courses | **50% OFF** — code `blackfriday` (Nov 13 – Dec 31) | ✅ |
 | [Vibe App Scanner](https://vibeappscanner.com/) | Source-code + live-app security scanner | **60% OFF** first month Go/Pro — auto-applied (Nov 10 – Nov 30) | ✅ |
+| [CyberWarFare Labs](https://cyberwarfare.live/) | Red team, cloud security, AD pentesting certs | 💸 **Up to 91% OFF** — most courses $9, bundles $29–$149 | ✅ |
+| [HackTricks Training](https://training.hacktricks.xyz/) | Cloud red team bundles (AWS/GCP/Azure) | **10% OFF** cloud red team bundles | ✅ |
+| [Blue Cape Security](https://bluecapesecurity.com/) | Incident response & threat hunting training | 💸 **$700 OFF** HERO IR training bundle ($1,497) | ✅ |
+| [MalDev Academy](https://maldevacademy.com/) | Malware development courses | **25% OFF** all courses | ✅ |
+| [Just Hacking Training](https://justhacking.co/) | Ethical hacking & pentesting courses | **25% OFF** everything | ✅ |
+| [Blu Raven Academy](https://academy.bluraven.io/) | KQL, threat hunting, Sentinel courses | **40% OFF** all courses | ✅ |
+| [RedTeamLeaders](https://redteamleaders.com/) | Red team certifications | 💸 **50% OFF** all certs | ✅ |
+| [Practical TLS](https://www.practicalnetworking.net/) | TLS/SSL deep-dive by Practical Networking | 💸 **83% OFF** lifetime access ($297 → $50) | ✅ |
+| [Wireshark Labs](https://www.wiresharklabs.com/) | Wireshark Certified Associate labs | 💸 **50% OFF** WCA Labs ($99.99) — starts Nov 23 | ⏳ |
+| [White Knight Labs](https://whiteknightlabs.com/) | Offensive security certs (ARTOC, ODPC) | 💸 **50% OFF** all certs — starts Nov 27 | ⏳ |
+| [OnlySecurity](https://onlysecurity.io/) | Cybersecurity courses & labs | **15% OFF** courses, Plus, Max — starts Nov 23 | ⏳ |
+| [Modern Security AI Cert](https://modernsecurity.ai/) | AI security certification | **20% OFF** AI security cert | ✅ |
 
 ### VPN Services
 
@@ -381,6 +394,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Meta Quest 3S 128GB | Standalone VR headset + 12-mo subscription | **$199** at Costco | ✅ |
 | Meta Quest 3S 256GB | + Batman bundle | **$71 OFF** | ✅ |
 | Super Mario Galaxy (Switch 2) | 30% off at Target | **30% OFF** | ✅ |
+| Nintendo Switch 2 Mario Kart World Bundle | Console + Mario Kart World | **$499** ($50 off, reg $549) — starts Nov 19 | ⏳ |
 
 ### Gaming Laptops
 
