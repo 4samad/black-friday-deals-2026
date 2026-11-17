@@ -154,6 +154,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Hosting.com](https://www.hosting.com/) | Shared/WordPress hosting | **Up to 89% OFF** (Nov 2 – Dec 1) | ✅ |
 | [Bluehost](https://www.bluehost.com/) | Shared/WordPress hosting | **15-25% OFF** 12-month (through Nov 30) | ✅ |
 | [ScalaHosting](https://www.scalahosting.com/) | Managed cloud VPS | **Up to 71% OFF** (through Dec 1) | ✅ |
+| [Faivelo](https://faivelo.com/black-friday) | Email hosting for your own domain, unlimited mailboxes | 💸 **80% OFF** — $12/yr instead of $60, first 500 new accounts (through Dec 1) | ✅ |
 
 ### VPS & Servers
 
