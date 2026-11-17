@@ -190,6 +190,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [BoltAI](https://boltai.com/) | Native macOS AI workspace (multi-model) | **40% OFF** Pro/Lifetime — code `BFCM2026` (Nov 2 – Dec 1) | ✅ |
 | [MindPal](https://mindpal.io/) | AI agents & workflow builder | **60% OFF** first year any annual plan — code `BLACKFRIDAY2026` (Nov 10 – Dec 11) | ✅ |
 | [Rezi](https://www.rezi.ai/) | AI resume builder | **70% OFF** Pro 3 months — code `Blackfriday2026` (Nov 13 – Dec 11) | ✅ |
+| [TypeBoost](https://typeboost.ai/?ref=black-friday-deals-2026) | AI writing in every app on Mac, plus an iPhone keyboard | **50% OFF** first year of Pro annual ($60 → $30) — code `TYPEBOOST50` (Nov 23 – Nov 30) | ⏳ |
 
 ### AI Image & Video
 
@@ -294,6 +295,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [CleanClip](https://pricing.cleanclip.cc/src) | Mac clipboard manager | **30% OFF** — Standard $19.99 → $13.99, Pro $29.99 → $20.99, code `BF2026` (through Dec 15, 2026) | ✅ |
 | [ScreenSage Pro](https://screensage.pro) | Native Mac screen recorder | **Up to 53% OFF** — Pro $149 → $79.90 code `BFS2026P` (46%); Lifetime $449 → $209.90 code `BFS2026L` (53%) (through Dec 15, 2026) | ✅ |
 | [Leave Me Alone](https://leavemealone.com/pricing/) | Unsubscribe from unwanted emails in one click, block senders, bundle newsletters into a digest | 💸 **83% OFF** Unlimited plan — $59/year instead of $30/month, every inbox you own, same price at renewal, no code (Nov 16 – Dec 8) | ✅ |
+| [DigiCard Pro](https://digicard.pro/?ref=black-friday-deals-2026) | Digital business card for Apple & Google Wallet | **50% OFF** Pro, one-time ($49.99 → $24.99) — code `DIGI50` (Nov 23 – Nov 30) | ⏳ |
+| [Wishbar](https://wishbar.app/black-friday) | Mac menu bar app: type what you want and your own ChatGPT or Claude builds a live widget | **50% OFF** one-time licences, no code needed: 1 Mac $39 → $19, 2 Macs $49 → $24, 5 Macs $69 → $34 (Nov 16 – Dec 7) | ✅ |
 
 ### Automation
 
