@@ -297,6 +297,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Leave Me Alone](https://leavemealone.com/pricing/) | Unsubscribe from unwanted emails in one click, block senders, bundle newsletters into a digest | 💸 **83% OFF** Unlimited plan — $59/year instead of $30/month, every inbox you own, same price at renewal, no code (Nov 16 – Dec 8) | ✅ |
 | [DigiCard Pro](https://digicard.pro/?ref=black-friday-deals-2026) | Digital business card for Apple & Google Wallet | **50% OFF** Pro, one-time ($49.99 → $24.99) — code `DIGI50` (Nov 23 – Nov 30) | ⏳ |
 | [Wishbar](https://wishbar.app/black-friday) | Mac menu bar app: type what you want and your own ChatGPT or Claude builds a live widget | **50% OFF** one-time licences, no code needed: 1 Mac $39 → $19, 2 Macs $49 → $24, 5 Macs $69 → $34 (Nov 16 – Dec 7) | ✅ |
+| [Paste](https://pasteapp.io/black-friday-2026?ref=shashankt255) | Paste is a productivity app for Mac, iPhone, and iPad that remembers everything you copy | 💸 **50% OFF** the first year of Annual ($29.99 → $14.99), code `BLACKFRIDAY2026` (Nov 20 – Dec 1) | ⏳ |
 
 ### Automation
 
