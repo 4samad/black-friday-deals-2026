@@ -99,6 +99,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [RealUptime](https://realuptime.io/pricing) | Uptime monitoring, status pages and error tracking on one plan | **50% OFF for life** for the first 20 customers, then **40% OFF** the first year; automatic, no code (Nov 23 – Nov 30) | ✅ |
 | [DevIntern](https://devintern.com/pricing/) | Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations | **40% OFF** the first invoice — code `BLACKFRIDAY26` (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo | ✅ |
 | [Wovo](https://wovo.one/#pricing) | AI/MCP that turns any AI into a multi-device agent across your computers | **50% OFF** Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026) | ✅ |
+| [Social Fetch](https://www.socialfetch.dev/black-friday) | Public social data API and MCP server (TikTok, Instagram, YouTube, X, Reddit, LinkedIn) | **2x CREDITS** on every plan, automatic at checkout, no code (Nov 19 to Dec 1) | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
