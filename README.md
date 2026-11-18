@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2018%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-260-blue)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2019%2C%202026-brightgreen)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-266-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 260 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 266 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -36,6 +36,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 19** — Big update pass: flipped 5 deals ⏳→✅ (DataCamp 60% OFF, Scalenut 65% OFF, Pictory 50% OFF, CodedThemes 60% OFF, Ableton 20% OFF + free Live 13 upgrade). Added 7 new deals: Abstract API, FormBold, DocuGenerate, Higgsfield, Coupler.io, 1minAI. Updated Whoop details. Amazon & Best Buy BF events now live. 266 total deals.
 - **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. Deduplicated 11 entries appearing in multiple categories. 260 total deals.
 - **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
 - **Nov 17** — 5 community PRs merged: Perisclaw, Outpublished, Faivelo, Refine, Paste
@@ -104,7 +105,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Proxyman](https://proxyman.io/) | macOS HTTP debugging proxy | **30% OFF** all plans — code `BF2026` (Nov 16 – Dec 3) | ✅ |
 | [Piloterr](https://piloterr.com/) | Web scraping & data extraction API | **50% OFF** first 3 months — code `BLACKFRIDAY50` (through Nov 30) | ✅ |
 | [Poedit](https://poedit.net/) | Translation editor (gettext/XLIFF) | **30% OFF** — code `BF26` (Nov 4 – Dec 3) | ✅ |
-| [CodedThemes](https://codedthemes.com/) | React/Angular/Vue admin dashboards | **40% OFF** storewide | ⏳ |
+| [CodedThemes](https://codedthemes.com/) | React/Angular/Vue admin dashboards | **60% OFF** storewide — code `BFCM60` (through Dec 1) | ✅ |
 | [Paperform](https://paperform.co/) | No-code form builder with developer API | **50% OFF** 12 months — code `PFBF26` (Nov 16–30) | ✅ |
 | [RealUptime](https://realuptime.io/pricing) | Uptime monitoring, status pages and error tracking on one plan | **50% OFF for life** for the first 20 customers, then **40% OFF** the first year; automatic, no code (Nov 23 – Nov 30) | ✅ |
 | [DevIntern](https://devintern.com/pricing/) | Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations | **40% OFF** the first invoice — code `BLACKFRIDAY26` (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo | ✅ |
@@ -116,6 +117,9 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [JSON2Video](https://json2video.com/) | Programmatic video generation API | **25% OFF** first year of yearly plans — code `BF2026PIMJO` (Nov 24 – Dec 1) | ✅ |
 | [Wins](https://wins.cool/) | macOS window management & arrangement | **40% OFF** all plans — code `BF_26` (Nov 11 – Dec 1) | ✅ |
 | [Chronoid](https://www.chronoid.app/) | Time tracking for Mac with auto-categorization | 💸 **50% OFF** Lifetime $149 → $74.50 — code `BLACKFRIDAY26` (Nov 3 – Dec 2) | ✅ |
+| [Abstract API](https://www.abstractapi.com/) | Developer APIs — IP geolocation, email validation, VAT | **20% OFF** any plan — code `BLACK20` (Nov 17 – Dec 10) | ✅ |
+| [FormBold](https://formbold.com/) | Form backend & API service | **30% OFF** yearly plans — code `BLFCM2026` (Nov 17 – Dec 1) | ✅ |
+| [DocuGenerate](https://docugenerate.com/) | Document generation API | **50% OFF** all plans | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -229,15 +233,17 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [AI Toolbox](https://www.ai-toolbox.co/) | Collection of AI tools in one app — text, image, code, chat | 💸 **50% OFF** Lifetime $49.50 — code `BLACKFRIDAY` (Nov 2 – Nov 30) | ✅ |
 | [TypeBoost](https://typeboost.ai/?ref=black-friday-deals-2026) | AI writing in every app on Mac, plus an iPhone keyboard | **50% OFF** first year of Pro annual ($60 → $30) — code `TYPEBOOST50` (Nov 23 – Nov 30) | ⏳ |
 | [Perisclaw](https://perisclaw.com/pricing) | AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks | **40% OFF** annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1) | ⏳ |
+| [1minAI](https://1min.ai/) | Multi-model AI platform (GPT, Claude, Gemini) | 💸 **86% OFF** Advanced Business Lifetime | ✅ |
 
 ### AI Image & Video
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Hostinger AI Builder](https://www.hostinger.com/) | AI website builder + hosting | **Up to 85% OFF** | ✅ |
-| [Pictory](https://pictory.ai/) | AI video creation from text | ~50% OFF annual — code `BLACKFRIDAY2026` | ⏳ |
+| [Pictory](https://pictory.ai/) | AI video creation from text | **50% OFF** annual — code `BLACKFRIDAY2026` | ✅ |
 | [Canva Pro](https://www.canva.com/) | Design + AI image generation | ~50% OFF first 3 months | ⏳ |
 | [Renderly](https://renderly.video/pricing) | Video rendering API: JSON template and data in, MP4 out | **30% OFF** first payment of Creator or Business - code `BLACKFRIDAY2026` (Nov 27 - Dec 1) | ✅ |
+| [Higgsfield](https://higgsfield.ai/) | AI video generation (Ultra plan) | **60% OFF** annual — $50/mo (reg $129) | ✅ |
 
 ### AI SEO & Marketing
 
@@ -245,7 +251,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 |---------|-------------|------|--------|
 | [Semrush](https://www.semrush.com/) | SEO & marketing platform | 14-day free trial on Semrush One | ✅ |
 | [Surfer SEO](https://surferseo.com/) | AI-powered on-page SEO | ~30% OFF annual (Nov 23 – Dec 1) | ⏳ |
-| [Scalenut](https://www.scalenut.com/) | AI SEO content platform | ~60% OFF annual | ⏳ |
+| [Scalenut](https://www.scalenut.com/) | AI SEO content platform | **65% OFF** annual plans — no code needed | ✅ |
 
 ### No BF Deal Expected
 
@@ -260,7 +266,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Flavio Copes](https://flaviocopes.com/black-friday/) | AI Workshop + 4 coding masterclasses | Sale opens **Nov 23** | ✅ |
 | [Udemy](https://www.udemy.com/) | Massive course catalog | Courses from **$9.99** (up to 85% off, ~Nov 25–28) | ⏳ |
 | [Coursera Plus](https://www.coursera.org/) | 7,000+ courses all-access | **40% OFF** annual — $239.40/yr (reg $399, ends Nov 30) | ✅ |
-| [DataCamp](https://www.datacamp.com/) | Data science, Python, R, SQL | **50% OFF** Premium annual (Nov 22–28) | ⏳ |
+| [DataCamp](https://www.datacamp.com/) | Data science, Python, R, SQL | **60% OFF** Premium annual — $132/yr (reg $330, through Nov 29) | ✅ |
 | [Educative.io](https://www.educative.io/) | Interactive text-based coding courses | **72% OFF** unlimited plans | ⏳ |
 | [Codecademy Pro](https://www.codecademy.com/) | Interactive coding lessons | **50% OFF** Pro Annual (Nov 21 – Dec 28) | ⏳ |
 | [Pluralsight](https://www.pluralsight.com/) | Tech skills (cloud, security, dev) | ~50% OFF | ⏳ |
@@ -339,6 +345,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | [OttoKit](https://ottokit.com/) | No-code automation (1,200+ apps) | **57% OFF** lifetime | ✅ |
 | [Pabbly Plus](https://www.pabbly.com/) | Workflow automation & billing | **$799/yr** (was $1,428) — code `BFCM26` | ✅ |
+| [Coupler.io](https://www.coupler.io/) | Data integration & ETL for spreadsheets and dashboards | **20% OFF** all plans | ✅ |
 
 ### Email Marketing
 
@@ -541,7 +548,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [FL Studio (All Plugins)](https://www.image-line.com/) | Full DAW, lifetime updates | **~50% OFF** (~$224, reg $449) | ✅ |
 | [DaVinci Resolve Studio](https://www.blackmagicdesign.com/) | Pro video editor + color grading | **20% OFF** ($236, reg $295) — ends Nov 20 | ✅ |
 | [Plugin Boutique](https://www.pluginboutique.com/) | Plugin marketplace | **Up to 95% OFF** select plugins | ✅ |
-| [Ableton Live 12](https://www.ableton.com/) | Professional DAW | ~25% OFF (up to 39% at Thomann) | ⏳ |
+| [Ableton Live 12](https://www.ableton.com/) | Professional DAW | **20% OFF** all licenses + free upgrade to Live 13 — Standard €223 (through Jan 1) | ✅ |
 | [Native Instruments Komplete](https://www.native-instruments.com/) | Instruments & sample libraries | **50-70% OFF** bundles | ⏳ |
 | [Waves Plugins](https://www.waves.com/) | Audio plugins | **BF Month Sale** — 200 plugins, 3 for $49.99 / 6 for $99.98 (through Nov 26) | ✅ |
 
@@ -560,7 +567,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Oura Ring Gen 4](https://ouraring.com/) | Smart ring for sleep & recovery | **10-20% OFF** + free month membership | ✅ |
-| [Whoop 5.0](https://www.whoop.com/) | Strain & recovery monitor | 2-year $299 (was $398), 3-year $399 (was $597) — main sale Nov 19 – Dec 1 | ✅ |
+| [Whoop 5.0](https://www.whoop.com/) | Strain & recovery monitor | **Up to $60 OFF** annual — Peak $199, Life $299, One $189 + 20% OFF apparel (Nov 19 – Dec 1) | ✅ |
 | Apple Watch Series 12 | Health/fitness smartwatch | 🇺🇸 **$329** 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off) | ✅ |
 | Garmin Forerunner 265 | GPS running watch | 🇺🇸 **33% OFF** $299.99 (reg $449.99) on Amazon — live now | ✅ |
 
