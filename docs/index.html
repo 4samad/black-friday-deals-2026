@@ -29,7 +29,7 @@
   "name": "Black Friday & Cyber Monday 2026 Deals",
   "description": "The largest curated collection of Black Friday and Cyber Monday 2026 deals with 300+ verified deals across 12 categories.",
   "url": "https://shashankt255.github.io/black-friday-deals-2026/",
-  "dateModified": "2026-11-17",
+  "dateModified": "2026-11-18",
   "author": {"@type": "Person", "name": "Shashankt255", "url": "https://github.com/Shashankt255"}
 }
 </script>
@@ -169,6 +169,17 @@ body {
 }
 .filter-btn:hover { border-color: var(--fg-3); }
 .filter-btn.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.filter-select {
+  font-family: var(--font); font-size: 0.78rem; font-weight: 500;
+  padding: 0.3rem 0.6rem; border-radius: 20px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--bg-raised); color: var(--fg-2);
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a8780'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 0.5rem center;
+  padding-right: 1.4rem; transition: all 0.15s;
+}
+.filter-select:hover { border-color: var(--fg-3); }
+.filter-select:focus { border-color: var(--accent); outline: none; }
 .result-count { font-size: 0.78rem; color: var(--fg-3); margin-left: auto; }
 
 /* Category nav chips */
@@ -276,20 +287,20 @@ footer a:hover { text-decoration: underline; }
 <div class="container">
   <div class="hero">
     <h1>Black Friday <span class="accent">&amp;</span> Cyber Monday<br>2026 Deals</h1>
-    <p class="hero-sub">The largest curated collection &mdash; 252 verified deals across 12 categories. No affiliate links.</p>
-    <p class="hero-date">Black Friday: November 27 &bull; Cyber Monday: November 30 &bull; Updated November 17, 2026</p>
+    <p class="hero-sub">The largest curated collection &mdash; 255 verified deals across 12 categories. No affiliate links.</p>
+    <p class="hero-date">Black Friday: November 27 &bull; Cyber Monday: November 30 &bull; Updated November 18, 2026</p>
 
     <div class="stats">
       <div class="stat-card">
-        <div class="stat-num">252</div>
+        <div class="stat-num">255</div>
         <div class="stat-label">Total Deals</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num green">183</div>
+        <div class="stat-num green">188</div>
         <div class="stat-label">Confirmed</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num amber">62</div>
+        <div class="stat-num amber">60</div>
         <div class="stat-label">Expected</div>
       </div>
       <div class="stat-card">
@@ -313,17 +324,27 @@ footer a:hover { text-decoration: underline; }
       <button class="filter-btn active" data-filter="all">All</button>
       <button class="filter-btn" data-filter="confirmed">Confirmed</button>
       <button class="filter-btn" data-filter="expected">Expected</button>
+      <select class="filter-select" id="regionFilter">
+        <option value="all">All Regions</option>
+        <option value="global">🌍 Global</option>
+        <option value="us">🇺🇸 US Only</option>
+        <option value="uk">🇬🇧 UK Only</option>
+      </select>
+      <select class="filter-select" id="audienceFilter">
+        <option value="all">Everyone</option>
+        <option value="student">🎓 Student / Edu</option>
+      </select>
       <span class="result-count" id="resultCount"></span>
     </div>
   </div>
 
   <nav class="cat-nav">
-    <a href="#developer-tools-saas" class="nav-chip">💻 Developer Tools & SaaS <span class="chip-count">24</span></a>
+    <a href="#developer-tools-saas" class="nav-chip">💻 Developer Tools & SaaS <span class="chip-count">26</span></a>
 <a href="#cybersecurity-privacy" class="nav-chip">🔒 Cybersecurity & Privacy <span class="chip-count">40</span></a>
 <a href="#cloud-hosting-domains" class="nav-chip">☁️ Cloud, Hosting & Domains <span class="chip-count">19</span></a>
 <a href="#ai-ml-tools" class="nav-chip">🤖 AI & ML Tools <span class="chip-count">21</span></a>
 <a href="#courses-learning" class="nav-chip">📚 Courses & Learning <span class="chip-count">20</span></a>
-<a href="#design-productivity" class="nav-chip">🎨 Design & Productivity <span class="chip-count">26</span></a>
+<a href="#design-productivity" class="nav-chip">🎨 Design & Productivity <span class="chip-count">27</span></a>
 <a href="#wordpress-no-code" class="nav-chip">🌐 WordPress & No-Code <span class="chip-count">22</span></a>
 <a href="#gaming" class="nav-chip">🎮 Gaming <span class="chip-count">26</span></a>
 <a href="#electronics-hardware" class="nav-chip">🖥️ Electronics & Hardware <span class="chip-count">16</span></a>
@@ -336,7 +357,7 @@ footer a:hover { text-decoration: underline; }
   <main id="deals">
     <section id="developer-tools-saas" class="category-section">
   <h2 class="cat-title">💻 Developer Tools &amp; SaaS</h2>
-  <div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://devutils.com/" target="_blank" rel="noopener">DevUtils</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -344,7 +365,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">All-in-one macOS dev utilities (JSON, JWT, regex, etc.)</div>
   <div class="deal-price"><strong>60% OFF</strong> — code <code>BLACKFRIDAY2026</code> (Nov 2 – Dec 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://react-pdf.org/" target="_blank" rel="noopener">React PDF</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -352,7 +373,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">React component library for PDF generation</div>
   <div class="deal-price"><strong>50% OFF</strong> dev &amp; org licenses — code <code>BFCM2026</code></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://mailtrap.io/" target="_blank" rel="noopener">Mailtrap</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -360,7 +381,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Email testing &amp; sending platform for developers</div>
   <div class="deal-price"><strong>15% OFF</strong> annual plans — code <code>BFCM26</code> (Nov 26 – Dec 2)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://tailkit.com/" target="_blank" rel="noopener">Tailkit</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -368,7 +389,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Tailwind CSS component library &amp; templates</div>
   <div class="deal-price"><strong>Up to 60% OFF</strong> (Nov 23 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://shipahead.dev/" target="_blank" rel="noopener">ShipAhead</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -376,7 +397,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Nuxt 3 SaaS starter kit with auth &amp; billing</div>
   <div class="deal-price"><strong>50% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://seedeo.io/" target="_blank" rel="noopener">Seedeo</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -384,7 +405,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI-powered development credits</div>
   <div class="deal-price">20K credits for $99 (reg $259 — <strong>62% OFF</strong>)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://replug.io/" target="_blank" rel="noopener">Replug</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -392,7 +413,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">URL shortener &amp; link management</div>
   <div class="deal-price"><strong>60% OFF</strong> annual plans</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://uiable.com/" target="_blank" rel="noopener">UIAble</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -400,7 +421,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">UI component library</div>
   <div class="deal-price"><strong>50% OFF</strong> — code <code>UIBFCM50</code> (Nov 17–30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://scrollsequence.com/" target="_blank" rel="noopener">Scrollsequence</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -408,7 +429,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Scroll-based animation framework</div>
   <div class="deal-price"><strong>50% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://lockit.dev/" target="_blank" rel="noopener">Lockit</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -416,7 +437,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared dev environment reservation (Slack)</div>
   <div class="deal-price"><strong>20% OFF</strong> — code <code>BF20</code> (Nov 24 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://elevenlabs.io/" target="_blank" rel="noopener">ElevenLabs</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -424,7 +445,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI voice/speech API</div>
   <div class="deal-price"><strong>50% OFF</strong> first Creator month</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://backlinkagent.com/" target="_blank" rel="noopener">BacklinkAgent</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -432,7 +453,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SEO backlink tool with developer API</div>
   <div class="deal-price"><strong>50% OFF</strong> annual (Nov 20 – Dec 11)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://c-command.com/dropdmg/" target="_blank" rel="noopener">DropDMG</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -440,7 +461,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">macOS disk image utility for app distribution</div>
   <div class="deal-price"><strong>40% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.jetbrains.com/" target="_blank" rel="noopener">JetBrains</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -448,7 +469,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">IntelliJ IDEA, PyCharm, WebStorm, GoLand</div>
   <div class="deal-price">~25% OFF (unverified)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://saasbold.com/" target="_blank" rel="noopener">SaaSBold</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -456,7 +477,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Next.js SaaS boilerplate</div>
   <div class="deal-price"><strong>40% OFF</strong> + Free AI Starter Kit — code <code>BLFCM2026</code> (Nov 18 – Dec 2)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://saasykit.com/" target="_blank" rel="noopener">SaaSykit</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -464,7 +485,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Laravel SaaS starter kit</div>
   <div class="deal-price"><strong>50% OFF</strong> all versions — code <code>BLACKFRIDAY26</code> (Nov 14 – Dec 6)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://proxyman.io/" target="_blank" rel="noopener">Proxyman</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -472,7 +493,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">macOS HTTP debugging proxy</div>
   <div class="deal-price"><strong>30% OFF</strong> all plans — code <code>BF2026</code> (Nov 16 – Dec 3)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://piloterr.com/" target="_blank" rel="noopener">Piloterr</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -480,7 +501,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Web scraping &amp; data extraction API</div>
   <div class="deal-price"><strong>50% OFF</strong> first 3 months — code <code>BLACKFRIDAY50</code> (through Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://poedit.net/" target="_blank" rel="noopener">Poedit</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -488,7 +509,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Translation editor (gettext/XLIFF)</div>
   <div class="deal-price"><strong>30% OFF</strong> — code <code>BF26</code> (Nov 4 – Dec 3)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://codedthemes.com/" target="_blank" rel="noopener">CodedThemes</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -496,7 +517,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">React/Angular/Vue admin dashboards</div>
   <div class="deal-price"><strong>40% OFF</strong> storewide</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://paperform.co/" target="_blank" rel="noopener">Paperform</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -504,7 +525,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">No-code form builder with developer API</div>
   <div class="deal-price"><strong>50% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://realuptime.io/pricing" target="_blank" rel="noopener">RealUptime</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -512,7 +533,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Uptime monitoring, status pages and error tracking on one plan</div>
   <div class="deal-price"><strong>50% OFF for life</strong> for the first 20 customers, then <strong>40% OFF</strong> the first year; automatic, no code (Nov 23 – Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://devintern.com/pricing/" target="_blank" rel="noopener">DevIntern</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -520,7 +541,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations</div>
   <div class="deal-price"><strong>40% OFF</strong> the first invoice — code <code>BLACKFRIDAY26</code> (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://wovo.one/#pricing" target="_blank" rel="noopener">Wovo</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -528,11 +549,27 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI/MCP that turns any AI into a multi-device agent across your computers</div>
   <div class="deal-price"><strong>50% OFF</strong> Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026)</div>
 </div>
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
+  <div class="deal-top">
+    <div class="deal-name"><a href="https://www.socialfetch.dev/black-friday" target="_blank" rel="noopener">Social Fetch</a></div>
+    <span class="status-badge status-confirmed">Confirmed</span>
+  </div>
+  <div class="deal-desc">Public social data API and MCP server (TikTok, Instagram, YouTube, X, Reddit, LinkedIn)</div>
+  <div class="deal-price"><strong>2x CREDITS</strong> on every plan, automatic at checkout, no code (Nov 19 to Dec 1)</div>
+</div>
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
+  <div class="deal-top">
+    <div class="deal-name"><a href="https://www.datapeek.dev/pricing" target="_blank" rel="noopener">data-peek</a></div>
+    <span class="status-badge status-confirmed">Confirmed</span>
+  </div>
+  <div class="deal-desc">Keyboard-first SQL client for Postgres, MySQL, SQL Server, SQLite and ClickHouse on Mac, Windows and Linux</div>
+  <div class="deal-price"><strong>40% OFF</strong> Pro yearly, $29 → $17.40, auto-applied at checkout (Nov 26 – Dec 1)</div>
+</div>
 </div>
 </section>
 <section id="cybersecurity-privacy" class="category-section">
   <h2 class="cat-title">🔒 Cybersecurity &amp; Privacy</h2>
-  <h3 class="sub-heading">Training &amp; Certifications</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Training &amp; Certifications</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.practical-devsecops.com/" target="_blank" rel="noopener">Practical DevSecOps</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -540,7 +577,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">11 DevSecOps certifications, hands-on labs</div>
   <div class="deal-price"><strong>15% OFF</strong> certs, up to <strong>$600 OFF</strong> bundles (ends Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://trainsec.net/" target="_blank" rel="noopener">TrainSec</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -548,7 +585,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SOC, threat intel, IR courses</div>
   <div class="deal-price"><strong>40% OFF</strong> — code <code>BF2026</code></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://secops-group.io/" target="_blank" rel="noopener">The SecOps Group</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -556,7 +593,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Pentesting certification exams</div>
   <div class="deal-price"><strong>90% OFF</strong> exams — code <code>BF-90</code></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://pwn.guide/" target="_blank" rel="noopener">pwn.guide</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -564,7 +601,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Ethical hacking + CompTIA prep</div>
   <div class="deal-price"><strong>20% OFF</strong> all plans incl. lifetime — code <code>BLKFRI20</code> (ends Dec 5)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://vantagepointsec.com/" target="_blank" rel="noopener">VantagePoint</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -572,7 +609,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Hacking labs and certifications</div>
   <div class="deal-price"><strong>70% OFF</strong> all labs &amp; certs (Nov 2 – Dec 15)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.offsec.com/" target="_blank" rel="noopener">OffSec (OSCP)</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -580,7 +617,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Learn One subscription — OSCP, OSWP, OSEP prep</div>
   <div class="deal-price"><strong>20% OFF</strong> Learn One (~$550 savings)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://ine.com/" target="_blank" rel="noopener">INE Security</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -588,7 +625,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Pentesting, blue team, cloud security</div>
   <div class="deal-price"><strong>~50% OFF</strong> Premium (sale starts Nov 20)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hackthebox.com/" target="_blank" rel="noopener">HackTheBox</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -596,7 +633,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Pentesting labs &amp; Academy</div>
   <div class="deal-price"><strong>25-40% OFF</strong> annual plans</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://tryhackme.com/" target="_blank" rel="noopener">TryHackMe</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -604,7 +641,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Beginner-friendly cyber training</div>
   <div class="deal-price"><strong>~40% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://academy.tcm-sec.com/" target="_blank" rel="noopener">TCM Security</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -612,7 +649,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Practical ethical hacking courses</div>
   <div class="deal-price"><strong>20% OFF</strong> certifications &amp; live training, 💸 <strong>50% OFF</strong> Academy membership</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://thexero.co.uk/wirelessoperator/" target="_blank" rel="noopener">Wireless Operator</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -620,7 +657,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Wi-Fi pentesting course by TheXero</div>
   <div class="deal-price"><strong>67% OFF</strong> — $599 → $197 (Nov 10 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://appsec.training/" target="_blank" rel="noopener">AppSec.training</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -628,7 +665,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Application security &amp; DevSecOps courses</div>
   <div class="deal-price"><strong>50% OFF</strong> — code <code>blackfriday</code> (Nov 13 – Dec 31)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://vibeappscanner.com/" target="_blank" rel="noopener">Vibe App Scanner</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -636,7 +673,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Source-code + live-app security scanner</div>
   <div class="deal-price"><strong>60% OFF</strong> first month Go/Pro — auto-applied (Nov 10 – Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://cyberwarfare.live/" target="_blank" rel="noopener">CyberWarFare Labs</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -644,7 +681,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Red team, cloud security, AD pentesting certs</div>
   <div class="deal-price">💸 <strong>Up to 91% OFF</strong> — most courses $9, bundles $29–$149</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://training.hacktricks.xyz/" target="_blank" rel="noopener">HackTricks Training</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -652,7 +689,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Cloud red team bundles (AWS/GCP/Azure)</div>
   <div class="deal-price"><strong>10% OFF</strong> cloud red team bundles</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://bluecapesecurity.com/" target="_blank" rel="noopener">Blue Cape Security</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -660,7 +697,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Incident response &amp; threat hunting training</div>
   <div class="deal-price">💸 <strong>$700 OFF</strong> HERO IR training bundle ($1,497)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://maldevacademy.com/" target="_blank" rel="noopener">MalDev Academy</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -668,7 +705,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Malware development courses</div>
   <div class="deal-price"><strong>25% OFF</strong> all courses</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://justhacking.co/" target="_blank" rel="noopener">Just Hacking Training</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -676,7 +713,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Ethical hacking &amp; pentesting courses</div>
   <div class="deal-price"><strong>25% OFF</strong> everything</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://academy.bluraven.io/" target="_blank" rel="noopener">Blu Raven Academy</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -684,7 +721,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">KQL, threat hunting, Sentinel courses</div>
   <div class="deal-price"><strong>40% OFF</strong> all courses</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://redteamleaders.com/" target="_blank" rel="noopener">RedTeamLeaders</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -692,7 +729,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Red team certifications</div>
   <div class="deal-price">💸 <strong>50% OFF</strong> all certs</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.practicalnetworking.net/" target="_blank" rel="noopener">Practical TLS</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -700,7 +737,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">TLS/SSL deep-dive by Practical Networking</div>
   <div class="deal-price">💸 <strong>83% OFF</strong> lifetime access ($297 → $50)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.wiresharklabs.com/" target="_blank" rel="noopener">Wireshark Labs</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -708,7 +745,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Wireshark Certified Associate labs</div>
   <div class="deal-price">💸 <strong>50% OFF</strong> WCA Labs ($99.99) — starts Nov 23</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://whiteknightlabs.com/" target="_blank" rel="noopener">White Knight Labs</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -716,7 +753,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Offensive security certs (ARTOC, ODPC)</div>
   <div class="deal-price">💸 <strong>50% OFF</strong> all certs — starts Nov 27</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://onlysecurity.io/" target="_blank" rel="noopener">OnlySecurity</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -724,7 +761,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Cybersecurity courses &amp; labs</div>
   <div class="deal-price"><strong>15% OFF</strong> courses, Plus, Max — starts Nov 23</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://modernsecurity.ai/" target="_blank" rel="noopener">Modern Security AI Cert</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -732,7 +769,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI security certification</div>
   <div class="deal-price"><strong>20% OFF</strong> AI security cert</div>
 </div>
-</div><h3 class="sub-heading">VPN Services</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">VPN Services</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://nordvpn.com/" target="_blank" rel="noopener">NordVPN</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -740,7 +777,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">6400+ servers, 111 countries</div>
   <div class="deal-price"><strong>Up to 78% OFF</strong> 2-year + 3 months free (~$3.49/mo) — ends Dec 9</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://protonvpn.com/" target="_blank" rel="noopener">Proton VPN</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -748,7 +785,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Privacy-focused Swiss VPN, open-source</div>
   <div class="deal-price"><strong>75% OFF</strong> 2-year Plus plan (~$2.49/mo) — ends Nov 30</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://surfshark.com/" target="_blank" rel="noopener">Surfshark</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -756,7 +793,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Unlimited devices VPN</div>
   <div class="deal-price"><strong>Up to 87% OFF</strong> + 3 months free (~$2.49/mo)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://expressvpn.com/" target="_blank" rel="noopener">ExpressVPN</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -764,7 +801,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium VPN with Lightway protocol</div>
   <div class="deal-price"><strong>Up to 80% OFF</strong> + 4 bonus months (~$2.99/mo)</div>
 </div>
-</div><h3 class="sub-heading">Password Managers &amp; Security</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Password Managers &amp; Security</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://nordpass.com/" target="_blank" rel="noopener">NordPass</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -772,7 +809,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Password manager</div>
   <div class="deal-price"><strong>55-58% OFF</strong> 2-year + 3 extra months (~$1.39/mo)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://proton.me/pass" target="_blank" rel="noopener">Proton Pass</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -780,7 +817,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">E2E encrypted password manager</div>
   <div class="deal-price"><strong>60% OFF</strong> Pass Plus</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://roboform.com/" target="_blank" rel="noopener">RoboForm</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -788,7 +825,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Cross-platform password manager</div>
   <div class="deal-price"><strong>64% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.bitdefender.com/" target="_blank" rel="noopener">Bitdefender</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -796,7 +833,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Antivirus + VPN + password manager</div>
   <div class="deal-price"><strong>Up to 78% OFF</strong> — Premium from $12.99</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://1password.com/" target="_blank" rel="noopener">1Password</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -804,7 +841,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Password manager for teams &amp; families</div>
   <div class="deal-price"><strong>~50% OFF</strong> first year — Individual &amp; Families (new customers)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://radar.offseq.com/pricing" target="_blank" rel="noopener">OffSeq Threat Radar</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -812,7 +849,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">CVE, CISA KEV and exploit intelligence with API and SBOM scans</div>
   <div class="deal-price"><strong>50% OFF</strong> first month or year, applied automatically (ends Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://breach.offseq.com/#pricing" target="_blank" rel="noopener">OffSeq Breach</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -820,7 +857,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Leaked-credential monitoring for company domains</div>
   <div class="deal-price"><strong>50% OFF</strong> first billing period — code <code>BLACK</code> (ends Dec 2)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://mirage.offseq.com/pricing" target="_blank" rel="noopener">OffSeq Mirage</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -828,7 +865,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Honeypot threat intelligence with attacker attribution</div>
   <div class="deal-price"><strong>50% OFF</strong> first 3 months — code <code>BFCM2026</code> (ends Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://guard.report/monitoring" target="_blank" rel="noopener">Guard by OffSeq</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -836,7 +873,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Website security and NIS2/GDPR scan with monitoring</div>
   <div class="deal-price"><strong>50% OFF</strong> full report and first month of monitoring, applied automatically (ends Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://pulse.offseq.com/pricing" target="_blank" rel="noopener">OffSeq Pulse</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -844,7 +881,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Device posture agent for NIS2 and CIS v8.1, hosted in Germany</div>
   <div class="deal-price"><strong>50% OFF</strong> first year or month for new customers, applied automatically (ends Dec 2)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://anon.li/" target="_blank" rel="noopener">anon.li</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -856,7 +893,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="cloud-hosting-domains" class="category-section">
   <h2 class="cat-title">☁️ Cloud, Hosting &amp; Domains</h2>
-  <h3 class="sub-heading">Web Hosting</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Web Hosting</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hostinger.com/" target="_blank" rel="noopener">Hostinger</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -864,7 +901,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared hosting, free SSL/CDN/email</div>
   <div class="deal-price"><strong>Up to 84% OFF</strong> — $2.49/mo (Oct 19 – Dec 14)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.ionos.com/" target="_blank" rel="noopener">IONOS</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -872,7 +909,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared hosting, 350GB storage</div>
   <div class="deal-price"><strong>Up to 94% OFF</strong> — from $1.00/mo</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.siteground.com/" target="_blank" rel="noopener">SiteGround</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -880,7 +917,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared/WordPress, free SSL + CDN</div>
   <div class="deal-price"><strong>Up to 88% OFF</strong> — from $1.99/mo</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://kinsta.com/" target="_blank" rel="noopener">Kinsta</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -888,7 +925,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Managed WordPress hosting</div>
   <div class="deal-price"><strong>50% OFF</strong> annual and monthly</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.cloudways.com/" target="_blank" rel="noopener">Cloudways</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -896,7 +933,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Managed cloud (DO/Vultr/AWS/GCP)</div>
   <div class="deal-price"><strong>50% OFF</strong> 3 months — code <code>BFCM5050</code> (ends Dec 4)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.inmotionhosting.com/" target="_blank" rel="noopener">InMotion</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -904,7 +941,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared/WordPress/reseller</div>
   <div class="deal-price"><strong>Up to 75% OFF</strong> (97% on reseller, ends Dec 16)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hostpapa.com/" target="_blank" rel="noopener">HostPapa</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -912,7 +949,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">WordPress, VPS, dedicated</div>
   <div class="deal-price"><strong>From $1.25/mo</strong> (up to 90% off)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hosting.com/" target="_blank" rel="noopener">Hosting.com</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -920,7 +957,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared/WordPress hosting</div>
   <div class="deal-price"><strong>Up to 89% OFF</strong> (Nov 2 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.bluehost.com/" target="_blank" rel="noopener">Bluehost</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -928,7 +965,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shared/WordPress hosting</div>
   <div class="deal-price"><strong>15-25% OFF</strong> 12-month (through Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.scalahosting.com/" target="_blank" rel="noopener">ScalaHosting</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -936,7 +973,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Managed cloud VPS</div>
   <div class="deal-price"><strong>Up to 71% OFF</strong> (through Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://faivelo.com/black-friday" target="_blank" rel="noopener">Faivelo</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -944,7 +981,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Email hosting for your own domain, unlimited mailboxes</div>
   <div class="deal-price">💸 <strong>80% OFF</strong> — $12/yr instead of $60, first 500 new accounts (through Dec 1)</div>
 </div>
-</div><h3 class="sub-heading">VPS &amp; Servers</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">VPS &amp; Servers</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.racknerd.com/" target="_blank" rel="noopener">RackNerd</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -952,7 +989,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Budget VPS, price-locks forever</div>
   <div class="deal-price"><strong>From $10.18/year</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hostinger.com/" target="_blank" rel="noopener">Hostinger VPS</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -960,7 +997,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">KVM VPS plans</div>
   <div class="deal-price"><strong>Up to 74% OFF</strong> — from $6.49/mo</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://godlike.host/" target="_blank" rel="noopener">Godlike.host</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -968,7 +1005,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">VPS with DDoS protection</div>
   <div class="deal-price"><strong>40% OFF</strong> (through Nov 30)</div>
 </div>
-<div class="deal-card" data-status="info">
+<div class="deal-card" data-status="info" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hetzner.com/" target="_blank" rel="noopener">Hetzner</a></div>
     <span class="status-badge status-info">Info</span>
@@ -976,7 +1013,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Cloud VPS (EU/US)</div>
   <div class="deal-price">No BF sale — already $4.51/mo for 2vCPU/4GB</div>
 </div>
-<div class="deal-card" data-status="info">
+<div class="deal-card" data-status="info" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.linode.com/" target="_blank" rel="noopener">Linode (Akamai)</a></div>
     <span class="status-badge status-info">Info</span>
@@ -984,7 +1021,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Cloud VPS</div>
   <div class="deal-price">$100 free credit / 60 days (standing offer)</div>
 </div>
-</div><h3 class="sub-heading">Domains</h3><div class="deal-grid"><div class="deal-card" data-status="expected">
+</div><h3 class="sub-heading">Domains</h3><div class="deal-grid"><div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.namecheap.com/" target="_blank" rel="noopener">Namecheap</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -992,7 +1029,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">.com + free WHOIS privacy for life</div>
   <div class="deal-price"><strong>Up to 97% OFF</strong> bundles</div>
 </div>
-<div class="deal-card" data-status="info">
+<div class="deal-card" data-status="info" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.cloudflare.com/" target="_blank" rel="noopener">Cloudflare Registrar</a></div>
     <span class="status-badge status-info">Info</span>
@@ -1000,7 +1037,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Domains at wholesale cost</div>
   <div class="deal-price">No sale — always at cost ($11.17 .com)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://koofr.eu/" target="_blank" rel="noopener">Koofr</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1012,7 +1049,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="ai-ml-tools" class="category-section">
   <h2 class="cat-title">🤖 AI &amp; ML Tools</h2>
-  <h3 class="sub-heading">AI Writing &amp; Content</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">AI Writing &amp; Content</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://quillbot.com/" target="_blank" rel="noopener">QuillBot</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1020,7 +1057,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI paraphrasing &amp; grammar</div>
   <div class="deal-price"><strong>58% OFF</strong> Premium — $8.33/mo annual</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://sintra.ai/" target="_blank" rel="noopener">Sintra AI</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1028,7 +1065,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI business assistant</div>
   <div class="deal-price"><strong>70% OFF</strong> 12-month plan</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://nexos.ai/" target="_blank" rel="noopener">nexos.ai</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1036,7 +1073,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI business platform</div>
   <div class="deal-price"><strong>75% OFF</strong> annual plan</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.jasper.ai/" target="_blank" rel="noopener">Jasper</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1044,7 +1081,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI copywriting &amp; marketing</div>
   <div class="deal-price">Up to $1000 off annual</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.grammarly.com/" target="_blank" rel="noopener">Grammarly</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1052,7 +1089,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI writing assistant</div>
   <div class="deal-price">~50% OFF Pro plans</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://getyoutubetranscript.com/pricing" target="_blank" rel="noopener">GetYouTubeTranscript</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1060,7 +1097,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">YouTube transcripts: web app, Chrome extension, API</div>
   <div class="deal-price">♾️ <strong>Lifetime $149 once</strong> — 3,000 credits/month, first 100 buyers (Nov 14 – Dec 10)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://orwellix.com/lifetime-deal?utm_source=shashankt-bf2026&amp;utm_medium=deal-directory&amp;utm_campaign=lifetime-deal-2026" target="_blank" rel="noopener">Orwellix</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1068,7 +1105,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI writing editor with reviewable agent edits, grammar, readability &amp; plagiarism checks</div>
   <div class="deal-price"><strong>47% OFF</strong> vs a year of Premium — Lifetime plan $249 once instead of $468/yr, no code needed, first 300 buyers (Nov 12 – Dec 31)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.typingmind.com/" target="_blank" rel="noopener">TypingMind</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1076,7 +1113,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI chat UI for ChatGPT, Claude, Gemini with plugins &amp; agents</div>
   <div class="deal-price">♾️ <strong>60% OFF</strong> Lifetime Premium — code <code>BLACKFRIDAY2026</code> (Nov 2 – Dec 15)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://boltai.com/" target="_blank" rel="noopener">BoltAI</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1084,7 +1121,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Native macOS AI workspace (multi-model)</div>
   <div class="deal-price"><strong>40% OFF</strong> Pro/Lifetime — code <code>BFCM2026</code> (Nov 2 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://mindpal.io/" target="_blank" rel="noopener">MindPal</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1092,7 +1129,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI agents &amp; workflow builder</div>
   <div class="deal-price"><strong>60% OFF</strong> first year any annual plan — code <code>BLACKFRIDAY2026</code> (Nov 10 – Dec 11)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.rezi.ai/" target="_blank" rel="noopener">Rezi</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1100,7 +1137,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI resume builder</div>
   <div class="deal-price"><strong>70% OFF</strong> Pro 3 months — code <code>Blackfriday2026</code> (Nov 13 – Dec 11)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://refine.sh/" target="_blank" rel="noopener">Refine</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1108,7 +1145,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Offline AI writing assistant for Mac with grammar and autocomplete (36 languages, local models)</div>
   <div class="deal-price"><strong>35% OFF</strong> one-time license, no code needed (Nov 15 - Nov 30)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://typeboost.ai/?ref=black-friday-deals-2026" target="_blank" rel="noopener">TypeBoost</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1116,7 +1153,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI writing in every app on Mac, plus an iPhone keyboard</div>
   <div class="deal-price"><strong>50% OFF</strong> first year of Pro annual ($60 → $30) — code <code>TYPEBOOST50</code> (Nov 23 – Nov 30)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://perisclaw.com/pricing" target="_blank" rel="noopener">Perisclaw</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1124,7 +1161,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks</div>
   <div class="deal-price"><strong>40% OFF</strong> annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1)</div>
 </div>
-</div><h3 class="sub-heading">AI Image &amp; Video</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">AI Image &amp; Video</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hostinger.com/" target="_blank" rel="noopener">Hostinger AI Builder</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1132,7 +1169,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI website builder + hosting</div>
   <div class="deal-price"><strong>Up to 85% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://pictory.ai/" target="_blank" rel="noopener">Pictory</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1140,7 +1177,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI video creation from text</div>
   <div class="deal-price">~50% OFF annual — code <code>BLACKFRIDAY2026</code></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.canva.com/" target="_blank" rel="noopener">Canva Pro</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1148,7 +1185,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Design + AI image generation</div>
   <div class="deal-price">~50% OFF first 3 months</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://renderly.video/pricing" target="_blank" rel="noopener">Renderly</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1156,7 +1193,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Video rendering API: JSON template and data in, MP4 out</div>
   <div class="deal-price"><strong>30% OFF</strong> first payment of Creator or Business - code <code>BLACKFRIDAY2026</code> (Nov 27 - Dec 1)</div>
 </div>
-</div><h3 class="sub-heading">AI SEO &amp; Marketing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">AI SEO &amp; Marketing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.semrush.com/" target="_blank" rel="noopener">Semrush</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1164,7 +1201,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SEO &amp; marketing platform</div>
   <div class="deal-price">14-day free trial on Semrush One</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://surferseo.com/" target="_blank" rel="noopener">Surfer SEO</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1172,7 +1209,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI-powered on-page SEO</div>
   <div class="deal-price">~30% OFF annual (Nov 23 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.scalenut.com/" target="_blank" rel="noopener">Scalenut</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1184,7 +1221,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="courses-learning" class="category-section">
   <h2 class="cat-title">📚 Courses &amp; Learning</h2>
-  <h3 class="sub-heading">Online Learning Platforms</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Online Learning Platforms</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://flaviocopes.com/black-friday/" target="_blank" rel="noopener">Flavio Copes</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1192,7 +1229,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI Workshop + 4 coding masterclasses</div>
   <div class="deal-price">Sale opens <strong>Nov 23</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.udemy.com/" target="_blank" rel="noopener">Udemy</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1200,7 +1237,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Massive course catalog</div>
   <div class="deal-price">Courses from <strong>$9.99</strong> (up to 85% off, ~Nov 25–28)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.coursera.org/" target="_blank" rel="noopener">Coursera Plus</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1208,7 +1245,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">7,000+ courses all-access</div>
   <div class="deal-price"><strong>40% OFF</strong> annual — $239.40/yr (reg $399, ends Nov 30)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.datacamp.com/" target="_blank" rel="noopener">DataCamp</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1216,7 +1253,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Data science, Python, R, SQL</div>
   <div class="deal-price"><strong>50% OFF</strong> Premium annual (Nov 22–28)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.educative.io/" target="_blank" rel="noopener">Educative.io</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1224,7 +1261,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Interactive text-based coding courses</div>
   <div class="deal-price"><strong>72% OFF</strong> unlimited plans</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.codecademy.com/" target="_blank" rel="noopener">Codecademy Pro</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1232,7 +1269,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Interactive coding lessons</div>
   <div class="deal-price"><strong>50% OFF</strong> Pro Annual (Nov 21 – Dec 28)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.pluralsight.com/" target="_blank" rel="noopener">Pluralsight</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1240,7 +1277,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Tech skills (cloud, security, dev)</div>
   <div class="deal-price">~50% OFF</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.masterclass.com/" target="_blank" rel="noopener">MasterClass</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1248,7 +1285,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Celebrity-taught classes</div>
   <div class="deal-price"><strong>50% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://labex.io/checkout?type=2&amp;coupon=2026BF30" target="_blank" rel="noopener">LabEx Pro (1 Year)</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1256,7 +1293,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud</div>
   <div class="deal-price"><strong>30% OFF</strong> — <strong>$69.90</strong> with code <code>2026BF30</code> (active now; ends Dec 7)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://labex.io/checkout?type=4&amp;coupon=2026BF50" target="_blank" rel="noopener">LabEx Pro (2 Years)</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1264,7 +1301,15 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud</div>
   <div class="deal-price"><strong>50% OFF</strong> — <strong>$99.90</strong> with code <code>2026BF50</code> (active now; ends Dec 7)</div>
 </div>
-</div><h3 class="sub-heading">Cybersecurity Training</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
+  <div class="deal-top">
+    <div class="deal-name"><a href="https://cyberwarfare.live/" target="_blank" rel="noopener">CyberWarFare Labs</a></div>
+    <span class="status-badge status-confirmed">Confirmed</span>
+  </div>
+  <div class="deal-desc">Hands-on cybersecurity training, practical labs, and industry-relevant certifications across Red Team, Blue Team, Cloud Security, AI Security, and more.</div>
+  <div class="deal-price"><strong>Up to 90% OFF</strong> bundles · Certifications from $5 · Infinity Yearly $49 with 2 free certifications. Coupons: <code>INFINITY49</code> (Yearly), <code>INFINITY5</code> (Monthly). (Nov 12 – Dec 1, 2026)</div>
+</div>
+</div><h3 class="sub-heading">Cybersecurity Training</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://ine.com/" target="_blank" rel="noopener">INE / eLearnSecurity</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1272,7 +1317,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Pentesting, blue team, cloud certs</div>
   <div class="deal-price">Sale starts <strong>Nov 20</strong> — code <code>BF-90</code> (Nov 2 – Dec 15)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.offsec.com/" target="_blank" rel="noopener">OffSec (OSCP/OSWP)</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1280,7 +1325,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Learn One subscription</div>
   <div class="deal-price"><strong>20% OFF</strong> (~$550 savings); 15% OFF bundles</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.practical-devsecops.com/" target="_blank" rel="noopener">Practical DevSecOps</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1288,7 +1333,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">11 DevSecOps certifications</div>
   <div class="deal-price"><strong>15% OFF</strong> certs, up to <strong>$600 OFF</strong> bundles</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://trainsec.net/" target="_blank" rel="noopener">TrainSec</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1296,7 +1341,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SOC, pentesting, forensics</div>
   <div class="deal-price"><strong>40% OFF</strong> — code <code>BF2026</code></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://vantagepointsec.com/" target="_blank" rel="noopener">VantagePoint</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1304,7 +1349,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Hacking labs &amp; certifications</div>
   <div class="deal-price"><strong>70% OFF</strong> (Nov 2 – Dec 15)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://pwn.guide/" target="_blank" rel="noopener">pwn.guide</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1312,7 +1357,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Offensive security practice</div>
   <div class="deal-price"><strong>20% OFF</strong> lifetime — code <code>BLKFRI20</code> (ends Dec 5)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.stacksocial.com/" target="_blank" rel="noopener">CompTIA Bundle</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1320,23 +1365,23 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">9 CompTIA exam prep courses</div>
   <div class="deal-price"><strong>$25-38</strong> (was $200-270)</div>
 </div>
-</div><h3 class="sub-heading">Cert Exam Vouchers</h3><div class="deal-grid"><div class="deal-card" data-status="expected">
+</div><h3 class="sub-heading">Cert Exam Vouchers</h3><div class="deal-grid"><div class="deal-card" data-status="expected" data-region="global" data-audience="student">
   <div class="deal-top">
     <div class="deal-name">AZ-900 Azure Fundamentals</div>
     <span class="status-badge status-expected">Expected</span>
   </div>
   <div class="deal-desc">Microsoft Azure entry cert</div>
-  <div class="deal-price"><strong>$44.99</strong> (reg $99)</div>
+  <div class="deal-price">🎓 <strong>$44.99</strong> (reg $99)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="student">
   <div class="deal-top">
     <div class="deal-name">CLF-C02 AWS Cloud Practitioner</div>
     <span class="status-badge status-expected">Expected</span>
   </div>
   <div class="deal-desc">AWS entry cert</div>
-  <div class="deal-price"><strong>$36.99</strong> (reg $100)</div>
+  <div class="deal-price">🎓 <strong>$36.99</strong> (reg $100)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://findexams.com/" target="_blank" rel="noopener">FindExams</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1344,7 +1389,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Exam simulators: PMP, CBAP, ITIL 4, more</div>
   <div class="deal-price"><strong>Up to 50% OFF</strong> (Nov 16 – Nov 30)</div>
 </div>
-</div><h3 class="sub-heading">Tech Books</h3><div class="deal-grid"><div class="deal-card" data-status="expected">
+</div><h3 class="sub-heading">Tech Books</h3><div class="deal-grid"><div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://nostarch.com/" target="_blank" rel="noopener">No Starch Press</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1352,7 +1397,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Security, Linux, Python, hacking books</div>
   <div class="deal-price"><strong>~42% OFF</strong> everything</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.packtpub.com/" target="_blank" rel="noopener">Packt Publishing</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1360,7 +1405,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">7,500+ tech eBooks &amp; videos</div>
   <div class="deal-price"><strong>50% OFF</strong> eBooks</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.manning.com/" target="_blank" rel="noopener">Manning</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1368,7 +1413,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">LiveBook, MEAP early access</div>
   <div class="deal-price"><strong>45% OFF</strong> daily deals running now</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.humblebundle.com/" target="_blank" rel="noopener">Humble Bundle</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1380,7 +1425,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="design-productivity" class="category-section">
   <h2 class="cat-title">🎨 Design &amp; Productivity</h2>
-  <h3 class="sub-heading">Design Tools</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Design Tools</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://affinity.serif.com/" target="_blank" rel="noopener">Affinity Suite V2</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1388,15 +1433,15 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Designer, Photo, Publisher</div>
   <div class="deal-price"><strong>FREE</strong> (Canva made Affinity free; AI features need paid Canva)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="student">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.adobe.com/" target="_blank" rel="noopener">Adobe Creative Cloud</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Photoshop, Illustrator, Premiere</div>
-  <div class="deal-price">💸 <strong>57% OFF</strong> All Apps first year ($29.99/mo, reg $69.99); students 77% OFF ($15.99/mo) — through Nov 27</div>
+  <div class="deal-price">💸 <strong>57% OFF</strong> All Apps first year ($29.99/mo, reg $69.99); 🎓 students 77% OFF ($15.99/mo) — through Nov 27</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://elements.envato.com/" target="_blank" rel="noopener">Envato Elements</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1404,7 +1449,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Unlimited stock assets &amp; templates</div>
   <div class="deal-price"><strong>Up to 50% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://ls.graphics/" target="_blank" rel="noopener">LS Graphics</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1412,7 +1457,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Mockup editor + 100+ mockup scene bundles</div>
   <div class="deal-price"><strong>50% OFF</strong> all bundles &amp; plans (Nov 6 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://lineicons.com/" target="_blank" rel="noopener">Lineicons</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1420,7 +1465,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">30,000+ vector icons in 10 styles</div>
   <div class="deal-price"><strong>40% OFF</strong> — code <code>BLFCM2026</code> (Nov 18 – Dec 2)</div>
 </div>
-</div><h3 class="sub-heading">SEO &amp; Marketing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">SEO &amp; Marketing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.seopress.org/" target="_blank" rel="noopener">SEOPress</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1428,7 +1473,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">WordPress SEO plugin</div>
   <div class="deal-price">Sale starts <strong>Nov 25</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://rankmath.com/" target="_blank" rel="noopener">Rank Math</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1436,7 +1481,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">WordPress SEO plugin</div>
   <div class="deal-price">Sale window opened <strong>Oct 28</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://offer.nuelink.com/mcp/" target="_blank" rel="noopener">Nuelink</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1444,7 +1489,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Agentic social media scheduling and automation for 12 platforms</div>
   <div class="deal-price"><strong>50% OFF</strong> yearly plans (6 months free) / <strong>25% OFF</strong> first 3 monthly payments — code <code>BFCM26</code> (Nov 6 – Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://outpublished.com/black-friday" target="_blank" rel="noopener">Outpublished</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1452,7 +1497,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Shows every page your competitors have that you don&#x27;t, and tells you the day they publish a new one</div>
   <div class="deal-price"><strong>40% OFF</strong> any plan, monthly or yearly, kept while you stay subscribed: Starter $23/mo (was $39), first 150 accounts, no code (Nov 20 – Dec 4)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.semrush.com/" target="_blank" rel="noopener">Semrush</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1460,7 +1505,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">All-in-one SEO platform</div>
   <div class="deal-price"><strong>17% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="expired">
+<div class="deal-card" data-status="expired" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://ahrefs.com/" target="_blank" rel="noopener">Ahrefs</a></div>
     <span class="status-badge status-expired">Expired</span>
@@ -1468,7 +1513,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SEO toolset</div>
   <div class="deal-price"><strong>No Black Friday sale</strong> (never discounts)</div>
 </div>
-</div><h3 class="sub-heading">Productivity &amp; Project Management</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Productivity &amp; Project Management</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.chanty.com/" target="_blank" rel="noopener">Chanty</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1476,7 +1521,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Team chat &amp; task management</div>
   <div class="deal-price"><strong>40% OFF</strong> annual / 25% OFF monthly (Nov 13–30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://taskip.net/" target="_blank" rel="noopener">Taskip</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1484,7 +1529,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Project management &amp; client portal</div>
   <div class="deal-price"><strong>70% OFF</strong> annual ($11.70/mo, was $39)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://paperform.co/" target="_blank" rel="noopener">Paperform</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1492,7 +1537,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Online forms &amp; surveys</div>
   <div class="deal-price"><strong>50% OFF</strong> 12 months — code <code>PFBF26</code> (Nov 16–30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.engagebay.com/" target="_blank" rel="noopener">EngageBay</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1500,7 +1545,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">All-in-one CRM, marketing, sales</div>
   <div class="deal-price"><strong>40% OFF</strong> all plans (Nov 9 – Dec 4)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://simplefill.app" target="_blank" rel="noopener">SimpleFill</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1508,7 +1553,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Text expansion, AI actions &amp; one-click form filling in your browser</div>
   <div class="deal-price"><strong>25% OFF</strong> one-time plans ($29 → $21.75), code <code>LAUNCH</code> (Nov 10 – Dec 7)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://dailyremote.com/get-started" target="_blank" rel="noopener">DailyRemote</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1516,7 +1561,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Remote job board with salary filters and daily job alerts</div>
   <div class="deal-price"><strong>39% OFF</strong> Premium monthly, quarterly and yearly plans — code <code>BFBNRTZSY</code> (Nov 12 – Dec 1)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.palmscreen.app/black-friday/" target="_blank" rel="noopener">palmscreen</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1524,7 +1569,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Native Mac screen recorder with auto-zoom, editor and screenshots</div>
   <div class="deal-price"><strong>34% OFF</strong> ($19 instead of $29, one-time) — code <code>BLACKWEEK</code> (Nov 23 – Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://pricing.cleanclip.cc/src" target="_blank" rel="noopener">CleanClip</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1532,7 +1577,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Mac clipboard manager</div>
   <div class="deal-price"><strong>30% OFF</strong> — Standard $19.99 → $13.99, Pro $29.99 → $20.99, code <code>BF2026</code> (through Dec 15, 2026)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://screensage.pro" target="_blank" rel="noopener">ScreenSage Pro</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1540,7 +1585,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Native Mac screen recorder</div>
   <div class="deal-price"><strong>Up to 53% OFF</strong> — Pro $149 → $79.90 code <code>BFS2026P</code> (46%); Lifetime $449 → $209.90 code <code>BFS2026L</code> (53%) (through Dec 15, 2026)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://leavemealone.com/pricing/" target="_blank" rel="noopener">Leave Me Alone</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1548,7 +1593,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Unsubscribe from unwanted emails in one click, block senders, bundle newsletters into a digest</div>
   <div class="deal-price">💸 <strong>83% OFF</strong> Unlimited plan — $59/year instead of $30/month, every inbox you own, same price at renewal, no code (Nov 16 – Dec 8)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://digicard.pro/?ref=black-friday-deals-2026" target="_blank" rel="noopener">DigiCard Pro</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1556,7 +1601,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Digital business card for Apple &amp; Google Wallet</div>
   <div class="deal-price"><strong>50% OFF</strong> Pro, one-time ($49.99 → $24.99) — code <code>DIGI50</code> (Nov 23 – Nov 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://wishbar.app/black-friday" target="_blank" rel="noopener">Wishbar</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1564,7 +1609,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Mac menu bar app: type what you want and your own ChatGPT or Claude builds a live widget</div>
   <div class="deal-price"><strong>50% OFF</strong> one-time licences, no code needed: 1 Mac $39 → $19, 2 Macs $49 → $24, 5 Macs $69 → $34 (Nov 16 – Dec 7)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://pasteapp.io/black-friday-2026" target="_blank" rel="noopener">Paste</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1572,7 +1617,15 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Paste is a productivity app for Mac, iPhone, and iPad that remembers everything you copy</div>
   <div class="deal-price">💸 <strong>50% OFF</strong> the first year of Annual ($29.99 → $14.99), code <code>BLACKFRIDAY2026</code> (Nov 20 – Dec 1)</div>
 </div>
-</div><h3 class="sub-heading">Automation</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
+  <div class="deal-top">
+    <div class="deal-name"><a href="https://float.gilla.fun/#pricing" target="_blank" rel="noopener">Float</a></div>
+    <span class="status-badge status-confirmed">Confirmed</span>
+  </div>
+  <div class="deal-desc">Floating Markdown scratchpad for Mac that stays over full-screen apps</div>
+  <div class="deal-price"><strong>40% OFF</strong> Pro lifetime, $4.99 → $2.99, code <code>BF26FLOAT</code> (Nov 26 – Dec 1)</div>
+</div>
+</div><h3 class="sub-heading">Automation</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://ottokit.com/" target="_blank" rel="noopener">OttoKit</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1580,7 +1633,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">No-code automation (1,200+ apps)</div>
   <div class="deal-price"><strong>57% OFF</strong> lifetime</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.pabbly.com/" target="_blank" rel="noopener">Pabbly Plus</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1588,7 +1641,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Workflow automation &amp; billing</div>
   <div class="deal-price"><strong>$799/yr</strong> (was $1,428) — code <code>BFCM26</code></div>
 </div>
-</div><h3 class="sub-heading">Email Marketing</h3><div class="deal-grid"><div class="deal-card" data-status="expected">
+</div><h3 class="sub-heading">Email Marketing</h3><div class="deal-grid"><div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://kit.com/" target="_blank" rel="noopener">Kit (ConvertKit)</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1596,7 +1649,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Creator email marketing</div>
   <div class="deal-price">~25% OFF first year Pro annual</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.beehiiv.com/" target="_blank" rel="noopener">Beehiiv</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1608,7 +1661,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="wordpress-no-code" class="category-section">
   <h2 class="cat-title">🌐 WordPress &amp; No-Code</h2>
-  <h3 class="sub-heading">WordPress Themes</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">WordPress Themes</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://wpastra.com/" target="_blank" rel="noopener">Astra</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1616,7 +1669,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Lightweight, fast WP theme</div>
   <div class="deal-price"><strong>Up to 47% OFF</strong> (Nov 16 – Dec 6)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://themeatelier.net/" target="_blank" rel="noopener">ThemeAtelier</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1624,7 +1677,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium WP plugins + themes</div>
   <div class="deal-price"><strong>40% OFF</strong> yearly / <strong>60% OFF</strong> lifetime (Nov 6 – Dec 15)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Pinnacle Themes</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1632,7 +1685,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium WordPress themes</div>
   <div class="deal-price"><strong>Up to 50% OFF</strong> (Nov 1 – Dec 31)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.elegantthemes.com/" target="_blank" rel="noopener">Elegant Themes / Divi</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1640,7 +1693,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">WP page builder &amp; theme</div>
   <div class="deal-price"><strong>Up to 81% OFF</strong> lifetime bundles</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.kadencewp.com/" target="_blank" rel="noopener">Kadence WP</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1648,7 +1701,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Performance-focused WP theme</div>
   <div class="deal-price"><strong>Up to 40% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://generatepress.com/" target="_blank" rel="noopener">GeneratePress</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1656,7 +1709,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Developer-focused theme</div>
   <div class="deal-price"><strong>Up to 25% OFF</strong></div>
 </div>
-</div><h3 class="sub-heading">WordPress Plugins</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">WordPress Plugins</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://wp-rocket.me/" target="_blank" rel="noopener">WP Rocket</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1664,7 +1717,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">#1 caching &amp; performance plugin</div>
   <div class="deal-price"><strong>40% OFF</strong> all plans (new purchases)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://rankmath.com/" target="_blank" rel="noopener">Rank Math Pro</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1672,7 +1725,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SEO plugin with AI features</div>
   <div class="deal-price"><strong>36-55% OFF</strong> Pro/Business/Agency (Nov 13 – Dec 3)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://wpmanageninja.com/" target="_blank" rel="noopener">WPManageNinja</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1680,7 +1733,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">FluentForms, FluentCRM, Ninja Tables</div>
   <div class="deal-price"><strong>Up to 40% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.bitapps.pro/" target="_blank" rel="noopener">Bit Apps</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1688,7 +1741,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium WordPress plugin suite</div>
   <div class="deal-price"><strong>Up to 74% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://dotcamp.dev/" target="_blank" rel="noopener">DotCamp</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1696,7 +1749,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">WordPress plugin bundle</div>
   <div class="deal-price"><strong>50% OFF</strong> — code <code>BF2026</code> (Nov 20 – Dec 2)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://seoant.com/" target="_blank" rel="noopener">SEOAnt</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1704,7 +1757,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">SEO optimization plugin</div>
   <div class="deal-price"><strong>50% OFF</strong> all plans</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://elementor.com/" target="_blank" rel="noopener">Elementor Pro</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1712,7 +1765,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Drag-and-drop page builder</div>
   <div class="deal-price"><strong>Up to 65% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://wpforms.com/" target="_blank" rel="noopener">WPForms</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1720,7 +1773,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Form builder</div>
   <div class="deal-price"><strong>Up to 70% OFF</strong> all licenses (Nov 24 – Dec 2)</div>
 </div>
-</div><h3 class="sub-heading">No-Code Platforms</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">No-Code Platforms</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://dorik.com/" target="_blank" rel="noopener">Dorik</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1728,7 +1781,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">No-code website builder</div>
   <div class="deal-price"><strong>60% OFF</strong> — code <code>BLACKFRIDAY2026</code> (Nov 2 – Dec 30)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.pixpa.com/" target="_blank" rel="noopener">Pixpa</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1736,7 +1789,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Portfolio/website builder</div>
   <div class="deal-price"><strong>Up to 55% OFF</strong> — code <code>BLFPIXPA55</code> (Nov 27 – Dec 31)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.shopify.com/" target="_blank" rel="noopener">Shopify</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1744,7 +1797,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">E-commerce platform</div>
   <div class="deal-price"><strong>$1/month</strong> for first 3 months (new stores)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://botsify.com/" target="_blank" rel="noopener">Botsify</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1752,7 +1805,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">No-code AI agent builder</div>
   <div class="deal-price">Lifetime plans from <strong>$399</strong> (Nov 15 – Dec 5)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.omnisend.com/" target="_blank" rel="noopener">Omnisend</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1760,7 +1813,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Email &amp; SMS for Shopify</div>
   <div class="deal-price"><strong>30% OFF</strong> first 3 months</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://webflow.com/" target="_blank" rel="noopener">Webflow</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1768,7 +1821,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Visual web development</div>
   <div class="deal-price"><strong>Up to 50% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.framer.com/" target="_blank" rel="noopener">Framer</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1776,7 +1829,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Design-to-code website builder</div>
   <div class="deal-price">3 free months on annual Pro</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://bubble.io/" target="_blank" rel="noopener">Bubble</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1788,7 +1841,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="gaming" class="category-section">
   <h2 class="cat-title">🎮 Gaming</h2>
-  <h3 class="sub-heading">Digital Stores &amp; Subscriptions</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Digital Stores &amp; Subscriptions</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.playstation.com/en-us/deals/" target="_blank" rel="noopener">PlayStation Store</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1796,7 +1849,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Up to 75% off PS5/PS4 games</div>
   <div class="deal-price">Live <strong>Nov 4–30</strong></div>
 </div>
-<div class="deal-card" data-status="info">
+<div class="deal-card" data-status="info" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://store.steampowered.com/specials" target="_blank" rel="noopener">Steam</a></div>
     <span class="status-badge status-info">Info</span>
@@ -1804,7 +1857,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Autumn Sale ended Oct 8; no BF storewide sale</div>
   <div class="deal-price"><strong>Winter Sale Dec 17 – Jan 4</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Xbox / PC Game Deals</div>
     <span class="status-badge status-expected">Expected</span>
@@ -1812,7 +1865,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Up to 75% off console, 85% off PC</div>
   <div class="deal-price">Late Nov (~Nov 20–Dec 3)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.gog.com/" target="_blank" rel="noopener">GOG.com</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -1820,7 +1873,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">DRM-free PC games, up to 90% off</div>
   <div class="deal-price">Late Nov (TBA)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://store.epicgames.com/" target="_blank" rel="noopener">Epic Games Store</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1828,15 +1881,15 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Epic Savings + BF Premium Editions</div>
   <div class="deal-price"><strong>Up to 80% OFF</strong> — Epic Savings (Nov 12–26) + Premium Editions (Nov 17–Dec 1)</div>
 </div>
-</div><h3 class="sub-heading">Consoles &amp; VR</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Consoles &amp; VR</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Meta Quest 3S 128GB</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Standalone VR headset + 12-mo subscription</div>
-  <div class="deal-price"><strong>$199</strong> at Costco</div>
+  <div class="deal-price">🇺🇸 <strong>$199</strong> at Costco</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Meta Quest 3S 256GB</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1844,47 +1897,47 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">+ Batman bundle</div>
   <div class="deal-price"><strong>$71 OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Super Mario Galaxy (Switch 2)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">30% off at Target</div>
-  <div class="deal-price"><strong>30% OFF</strong></div>
+  <div class="deal-price">🇺🇸 <strong>30% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Nintendo Switch 2 Mario Kart World Bundle</div>
-    <span class="status-badge status-expected">Expected</span>
+    <span class="status-badge status-confirmed">Confirmed</span>
   </div>
-  <div class="deal-desc">Console + Mario Kart World</div>
-  <div class="deal-price"><strong>$499</strong> ($50 off, reg $549) — starts Nov 19</div>
+  <div class="deal-desc">Console + Mario Kart World + 3-mo NSO</div>
+  <div class="deal-price">🇺🇸 <strong>$499</strong> ($50 off, reg $549) + $20 off select games — Nov 22 – Dec 5</div>
 </div>
-</div><h3 class="sub-heading">Gaming Laptops</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Gaming Laptops</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">MSI Cyborg (RTX 5050)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Budget gaming laptop</div>
-  <div class="deal-price"><strong>$899</strong> at Walmart</div>
+  <div class="deal-price">🇺🇸 <strong>$899</strong> at Walmart</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Gigabyte Aero X16 (RTX 5060)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Mid-range gaming/creator</div>
-  <div class="deal-price"><strong>$1,224.99</strong> at Best Buy</div>
+  <div class="deal-price">🇺🇸 <strong>$1,224.99</strong> at Best Buy</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Acer Nitro V 16S (RTX 5070)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">High-performance</div>
-  <div class="deal-price"><strong>$1,550</strong> at Amazon</div>
+  <div class="deal-price">🇺🇸 <strong>$1,550</strong> at Amazon</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">MSI Vector 16 HX AI (RTX 5070 Ti)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1892,15 +1945,15 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Strongest early BF GPU deal</div>
   <div class="deal-price"><strong>$1,599</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Best Buy PC Gaming Sale</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Up to $1,000 off select laptops</div>
-  <div class="deal-price"><strong>Live now</strong></div>
+  <div class="deal-price">🇺🇸 <strong>Live now</strong></div>
 </div>
-</div><h3 class="sub-heading">Gaming Monitors</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Gaming Monitors</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">KTC 27&quot; 1440p 200Hz Mini-LED</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1908,7 +1961,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">High refresh, local dimming</div>
   <div class="deal-price"><strong>$289.99</strong> at Newegg</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Koorui 27&quot; QHD 180Hz Curved</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1916,7 +1969,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Budget 1440p curved</div>
   <div class="deal-price"><strong>$129.99</strong> (35% off)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Dell Alienware AW3225QF 4K QD-OLED</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1924,7 +1977,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">32&quot; curved QD-OLED</div>
   <div class="deal-price"><strong>22% OFF</strong> (~$220 savings)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">MSI MPG 321URX 32&quot; 4K QD-OLED</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1932,7 +1985,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">32&quot; 4K QD-OLED</div>
   <div class="deal-price"><strong>$749.99</strong> ($300 off)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">ASUS ROG Swift PG32UCDM</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1940,7 +1993,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">32&quot; premium OLED</div>
   <div class="deal-price"><strong>$899</strong> (31% off)</div>
 </div>
-</div><h3 class="sub-heading">Peripherals</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Peripherals</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">SteelSeries Arctis Nova Pro Wireless</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1948,7 +2001,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium wireless headset</div>
   <div class="deal-price"><strong>$249.99</strong> ($70 off)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Razer BlackShark V3</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1956,7 +2009,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Top-rated wired headset</div>
   <div class="deal-price"><strong>$103.99</strong> (was $149.99)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Razer Huntsman Mini</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1964,7 +2017,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">60% optical mechanical keyboard</div>
   <div class="deal-price"><strong>49% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Keychron / Lemokey (100+ models)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1972,7 +2025,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium mechanical keyboards</div>
   <div class="deal-price"><strong>15-25% OFF</strong></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Redragon K671</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -1980,7 +2033,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Budget full-size mechanical</div>
   <div class="deal-price"><strong>$23.99</strong> (43% off)</div>
 </div>
-</div><h3 class="sub-heading">Gaming Chairs</h3><div class="deal-grid"><div class="deal-card expired-row" data-status="expired">
+</div><h3 class="sub-heading">Gaming Chairs</h3><div class="deal-grid"><div class="deal-card expired-row" data-status="expired" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Herman Miller Embody Gaming</div>
     <span class="status-badge status-expired">Expired</span>
@@ -1988,7 +2041,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium ergonomic</div>
   <div class="deal-price"><s>25% OFF</s> — <strong>EXPIRED</strong> Nov 12</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://secretlab.co/" target="_blank" rel="noopener">Secretlab Titan Evo</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2000,55 +2053,55 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="electronics-hardware" class="category-section">
   <h2 class="cat-title">🖥️ Electronics &amp; Hardware</h2>
-  <h3 class="sub-heading">Laptops</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Laptops</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">MacBook Air 13 M5 (16/512GB)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Apple&#x27;s lightweight workhorse</div>
-  <div class="deal-price"><strong>$1,099.99</strong> (~$199 off) at Amazon</div>
+  <div class="deal-price">🇺🇸 <strong>$1,099.99</strong> (~$199 off) at Amazon</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">MacBook Air 13 M5 (16/1TB)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Higher storage</div>
-  <div class="deal-price"><strong>$1,349.99</strong> (~$249 off) at Amazon</div>
+  <div class="deal-price">🇺🇸 <strong>$1,349.99</strong> (~$249 off) at Amazon</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Dell XPS 13 (3K Touch)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Compact ultrabook</div>
-  <div class="deal-price"><strong>$599.99</strong> ($200 off) at Best Buy</div>
+  <div class="deal-price">🇺🇸 <strong>$599.99</strong> ($200 off) at Best Buy</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Dell XPS 13 (16GB/512GB)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Higher config</div>
-  <div class="deal-price"><strong>$999.99</strong> (all-time low) at Best Buy</div>
+  <div class="deal-price">🇺🇸 <strong>$999.99</strong> (all-time low) at Best Buy</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.lenovo.com/us/en/deals/black-friday-sale/" target="_blank" rel="noopener">Lenovo ThinkPad / Yoga / Legion</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Full Lenovo lineup</div>
-  <div class="deal-price"><strong>27-68% OFF</strong> — ThinkPad X1 Carbon ~$1,524, Yoga 7 ~$749</div>
+  <div class="deal-price">🇺🇸 <strong>27-68% OFF</strong> — ThinkPad X1 Carbon ~$1,524, Yoga 7 ~$749</div>
 </div>
-</div><h3 class="sub-heading">Storage</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Storage</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Samsung 9100 PRO 2TB (PCIe 5.0)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Flagship NVMe</div>
-  <div class="deal-price"><strong>$399.99</strong> at Amazon</div>
+  <div class="deal-price">🇺🇸 <strong>$399.99</strong> at Amazon</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Crucial P510 1TB (PCIe 4.0)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2056,7 +2109,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Budget NVMe</div>
   <div class="deal-price"><strong>$153</strong> at Newegg (~33% off)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Team Group MP44 4TB</div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2064,55 +2117,55 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">High-capacity NVMe</div>
   <div class="deal-price"><strong>$325.99</strong> at Newegg</div>
 </div>
-</div><h3 class="sub-heading">Audio</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Audio</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">AirPods Pro 3</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Apple ANC earbuds</div>
-  <div class="deal-price"><strong>$179</strong> ($70 off, was $249)</div>
+  <div class="deal-price">🇺🇸 <strong>$179</strong> ($70 off, was $249)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">AirPods 4</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Latest Apple earbuds</div>
-  <div class="deal-price">Best-ever pricing at Amazon</div>
+  <div class="deal-price">🇺🇸 Best-ever pricing at Amazon</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Sony WH-1000XM6</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Premium ANC over-ear</div>
-  <div class="deal-price"><strong>$378</strong> at Amazon</div>
+  <div class="deal-price">🇺🇸 <strong>$378</strong> at Amazon</div>
 </div>
-</div><h3 class="sub-heading">Tablets &amp; Smartwatches</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Tablets &amp; Smartwatches</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">iPad 11&quot; A16 (128GB)</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Latest base iPad</div>
-  <div class="deal-price"><strong>~20% OFF</strong> at multiple retailers</div>
+  <div class="deal-price">🇺🇸 <strong>~20% OFF</strong> at multiple retailers</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Apple Watch Ultra 2</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Rugged smartwatch</div>
-  <div class="deal-price">Early steep discounts live</div>
+  <div class="deal-price">🇺🇸 Early steep discounts live</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Apple Watch Series 12</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Latest mainstream</div>
-  <div class="deal-price">Listed in Amazon BF deals</div>
+  <div class="deal-price">🇺🇸 Listed in Amazon BF deals</div>
 </div>
-</div><h3 class="sub-heading">Networking &amp; Home Lab</h3><div class="deal-grid"><div class="deal-card" data-status="expected">
+</div><h3 class="sub-heading">Networking &amp; Home Lab</h3><div class="deal-grid"><div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Ubiquiti UniFi</div>
     <span class="status-badge status-expected">Expected</span>
@@ -2120,7 +2173,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Gateways, switches, APs, cameras</div>
   <div class="deal-price">Free shipping + price cuts expected</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Synology DS923+</div>
     <span class="status-badge status-expected">Expected</span>
@@ -2132,7 +2185,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="finance-business" class="category-section">
   <h2 class="cat-title">💰 Finance &amp; Business</h2>
-  <h3 class="sub-heading">Accounting &amp; Invoicing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Accounting &amp; Invoicing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.xero.com/" target="_blank" rel="noopener">Xero</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2140,7 +2193,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Cloud accounting &amp; invoicing</div>
   <div class="deal-price"><strong>90% OFF</strong> for 4 months</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://quickbooks.intuit.com/" target="_blank" rel="noopener">QuickBooks Online</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2148,7 +2201,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Small business accounting</div>
   <div class="deal-price">💸 <strong>70% OFF</strong> for 3 months, all plans (new customers) — ends Nov 29</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.freshbooks.com/" target="_blank" rel="noopener">FreshBooks</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2156,7 +2209,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Freelancer accounting</div>
   <div class="deal-price"><strong>80% OFF</strong> 4 months — Lite $4.60/mo, Plus $8.60/mo, Premium $14/mo (Oct 14 – Dec 31)</div>
 </div>
-</div><h3 class="sub-heading">CRM &amp; Sales</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">CRM &amp; Sales</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.pipedrive.com/" target="_blank" rel="noopener">Pipedrive</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2164,7 +2217,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Sales CRM &amp; pipeline</div>
   <div class="deal-price"><strong>35% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.engagebay.com/" target="_blank" rel="noopener">EngageBay</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2172,7 +2225,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">All-in-one CRM</div>
   <div class="deal-price"><strong>40% OFF</strong> all plans (Nov 9 – Dec 4)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hubspot.com/" target="_blank" rel="noopener">HubSpot</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2180,7 +2233,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">CRM, marketing, sales</div>
   <div class="deal-price"><strong>Up to 45-50% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.zoho.com/" target="_blank" rel="noopener">Zoho CRM</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2188,7 +2241,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Small-mid business CRM</div>
   <div class="deal-price"><strong>Up to 25% OFF</strong> annual</div>
 </div>
-</div><h3 class="sub-heading">E-Signature</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">E-Signature</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://signaturely.com/" target="_blank" rel="noopener">Signaturely</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2196,7 +2249,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Simple e-signature</div>
   <div class="deal-price"><strong>Up to 35% OFF</strong> Business</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.docusign.com/" target="_blank" rel="noopener">DocuSign</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2204,7 +2257,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">E-signature platform</div>
   <div class="deal-price"><strong>20-30% OFF</strong> subscriptions</div>
 </div>
-</div><h3 class="sub-heading">Finance &amp; Budgeting</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Finance &amp; Budgeting</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.ynab.com/" target="_blank" rel="noopener">YNAB</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2212,7 +2265,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Budgeting app</div>
   <div class="deal-price"><strong>50% OFF</strong> annual</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2220,7 +2273,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Charting &amp; trading platform</div>
   <div class="deal-price"><strong>Up to 70% OFF</strong> Premium</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.sofi.com/" target="_blank" rel="noopener">SoFi Invest</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2232,7 +2285,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="streaming-entertainment" class="category-section">
   <h2 class="cat-title">🎬 Streaming &amp; Entertainment</h2>
-  <h3 class="sub-heading">Streaming Services</h3><div class="deal-grid"><div class="deal-card" data-status="expected">
+  <h3 class="sub-heading">Streaming Services</h3><div class="deal-grid"><div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Disney+ &amp; Hulu Bundle (With Ads)</div>
     <span class="status-badge status-expected">Expected</span>
@@ -2240,7 +2293,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Movies, shows, originals</div>
   <div class="deal-price">~$4.99/mo for 12 months (reg ~$12.99)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Apple TV+</div>
     <span class="status-badge status-expected">Expected</span>
@@ -2248,7 +2301,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Apple original content</div>
   <div class="deal-price">$5.99/mo for 6 months (reg $12.99)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.paramountplus.com/" target="_blank" rel="noopener">Paramount+</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2256,7 +2309,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">CBS/Paramount streaming</div>
   <div class="deal-price">💸 <strong>50% OFF</strong> Premium annual ($69.99/yr, reg $139.99) — code <code>SAVEANNUAL50</code></div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.audible.com/" target="_blank" rel="noopener">Audible</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2264,7 +2317,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Audiobook subscription</div>
   <div class="deal-price">💸 <strong>$0.99/mo</strong> for 3 months + $20 credit (reg $8.99/mo) — ends Dec 28</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Kindle Unlimited</div>
     <span class="status-badge status-expected">Expected</span>
@@ -2272,7 +2325,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Unlimited ebook reading</div>
   <div class="deal-price"><strong>$0.99</strong> for 3 months (reg $11.99/mo)</div>
 </div>
-</div><h3 class="sub-heading">Music Production</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Music Production</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.image-line.com/" target="_blank" rel="noopener">FL Studio (All Plugins)</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2280,7 +2333,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Full DAW, lifetime updates</div>
   <div class="deal-price"><strong>~50% OFF</strong> (~$224, reg $449)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.blackmagicdesign.com/" target="_blank" rel="noopener">DaVinci Resolve Studio</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2288,7 +2341,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Pro video editor + color grading</div>
   <div class="deal-price"><strong>20% OFF</strong> ($236, reg $295) — ends Nov 20</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.pluginboutique.com/" target="_blank" rel="noopener">Plugin Boutique</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2296,7 +2349,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Plugin marketplace</div>
   <div class="deal-price"><strong>Up to 95% OFF</strong> select plugins</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.ableton.com/" target="_blank" rel="noopener">Ableton Live 12</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2304,7 +2357,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Professional DAW</div>
   <div class="deal-price">~25% OFF (up to 39% at Thomann)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.native-instruments.com/" target="_blank" rel="noopener">Native Instruments Komplete</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2312,7 +2365,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Instruments &amp; sample libraries</div>
   <div class="deal-price"><strong>50-70% OFF</strong> bundles</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.waves.com/" target="_blank" rel="noopener">Waves Plugins</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2320,7 +2373,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Audio plugins</div>
   <div class="deal-price"><strong>BF Month Sale</strong> — 200 plugins, 3 for $49.99 / 6 for $99.98 (through Nov 26)</div>
 </div>
-</div><h3 class="sub-heading">Photo &amp; Video Editing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Photo &amp; Video Editing</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.topazlabs.com/sale" target="_blank" rel="noopener">Topaz Labs</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2328,7 +2381,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI photo/video enhancement</div>
   <div class="deal-price"><strong>Up to 67% OFF</strong> bundles, 15% OFF annual single apps — Studio $299/yr (reg $499), existing users all apps $99/yr (through Dec 1)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://skylum.com/" target="_blank" rel="noopener">Skylum Luminar</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2336,7 +2389,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">AI photo editor (renamed from Luminar Neo)</div>
   <div class="deal-price"><strong>Up to 77% OFF</strong> — $99 Desktop / $139 All Platforms / $159 Max (through Nov 30)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.captureone.com/" target="_blank" rel="noopener">Capture One Pro</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2348,7 +2401,7 @@ footer a:hover { text-decoration: underline; }
 </section>
 <section id="health-fitness-lifestyle" class="category-section">
   <h2 class="cat-title">🏋️ Health, Fitness &amp; Lifestyle</h2>
-  <h3 class="sub-heading">Wearables</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+  <h3 class="sub-heading">Wearables</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://ouraring.com/" target="_blank" rel="noopener">Oura Ring Gen 4</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2356,7 +2409,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Smart ring for sleep &amp; recovery</div>
   <div class="deal-price"><strong>10-20% OFF</strong> + free month membership</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.whoop.com/" target="_blank" rel="noopener">Whoop 5.0</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2364,23 +2417,23 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Strain &amp; recovery monitor</div>
   <div class="deal-price">2-year $299 (was $398), 3-year $399 (was $597) — main sale Nov 19 – Dec 1</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Apple Watch Series 12</div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Health/fitness smartwatch</div>
-  <div class="deal-price"><strong>$329</strong> 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off)</div>
+  <div class="deal-price">🇺🇸 <strong>$329</strong> 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">Garmin Forerunner 265</div>
-    <span class="status-badge status-expected">Expected</span>
+    <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">GPS running watch</div>
-  <div class="deal-price">~$100 off ($299, reg $399)</div>
+  <div class="deal-price">🇺🇸 <strong>33% OFF</strong> $299.99 (reg $449.99) on Amazon — live now</div>
 </div>
-</div><h3 class="sub-heading">Standing Desks &amp; Chairs</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Standing Desks &amp; Chairs</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.flexispot.com/" target="_blank" rel="noopener">FlexiSpot</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2388,7 +2441,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Electric sit-stand desks</div>
   <div class="deal-price">Deals <strong>live now</strong> (~$300, reg $499)</div>
 </div>
-<div class="deal-card expired-row" data-status="expired">
+<div class="deal-card expired-row" data-status="expired" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hermanmiller.com/" target="_blank" rel="noopener">Herman Miller Aeron</a></div>
     <span class="status-badge status-expired">Expired</span>
@@ -2396,7 +2449,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Iconic ergonomic chair</div>
   <div class="deal-price"><s>25% OFF</s> — <strong>EXPIRED</strong> Nov 12</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://secretlab.co/" target="_blank" rel="noopener">Secretlab TITAN Evo</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2404,7 +2457,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Premium gaming/office chair</div>
   <div class="deal-price"><strong>Up to $100 OFF</strong> — from $499 (Nov 12 – Dec 5)</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name">UPLIFT V2</div>
     <span class="status-badge status-expected">Expected</span>
@@ -2412,7 +2465,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Standing desk</div>
   <div class="deal-price">$100-200 off</div>
 </div>
-</div><h3 class="sub-heading">Recovery &amp; Fitness</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Recovery &amp; Fitness</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.therabody.com/" target="_blank" rel="noopener">Therabody (Theragun)</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2420,15 +2473,15 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Percussion massage guns</div>
   <div class="deal-price"><strong>Up to 50% OFF</strong> sitewide</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hyperice.com/" target="_blank" rel="noopener">Hyperice</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Massage guns &amp; compression</div>
-  <div class="deal-price"><strong>Up to $200 OFF</strong> at Best Buy</div>
+  <div class="deal-price">🇺🇸 <strong>Up to $200 OFF</strong> at Best Buy</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.myprotein.com/" target="_blank" rel="noopener">Myprotein</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2436,23 +2489,23 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Protein, creatine, supplements</div>
   <div class="deal-price"><strong>Up to 70% OFF</strong> — live now through Cyber Monday</div>
 </div>
-</div><h3 class="sub-heading">Meal Delivery</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Meal Delivery</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.hellofresh.com/" target="_blank" rel="noopener">HelloFresh</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Weekly meal kits</div>
-  <div class="deal-price">Free ZWILLING wok + <strong>10 free meals</strong> (new subs)</div>
+  <div class="deal-price">🇺🇸 Free ZWILLING wok + <strong>10 free meals</strong> (new subs)</div>
 </div>
-<div class="deal-card" data-status="confirmed">
+<div class="deal-card" data-status="confirmed" data-region="us" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.factor75.com/" target="_blank" rel="noopener">Factor</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
   </div>
   <div class="deal-desc">Prepared meals delivered</div>
-  <div class="deal-price"><strong>Up to $130 OFF</strong> + free breakfast for a year</div>
+  <div class="deal-price">🇺🇸 <strong>Up to $130 OFF</strong> + free breakfast for a year</div>
 </div>
-</div><h3 class="sub-heading">Wellness Apps</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed">
+</div><h3 class="sub-heading">Wellness Apps</h3><div class="deal-grid"><div class="deal-card" data-status="confirmed" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.headspace.com/" target="_blank" rel="noopener">Headspace</a></div>
     <span class="status-badge status-confirmed">Confirmed</span>
@@ -2460,7 +2513,7 @@ footer a:hover { text-decoration: underline; }
   <div class="deal-desc">Meditation &amp; mindfulness</div>
   <div class="deal-price"><strong>50% OFF</strong> first year (~$34.99) — Nov 12 – Dec 4</div>
 </div>
-<div class="deal-card" data-status="expected">
+<div class="deal-card" data-status="expected" data-region="global" data-audience="everyone">
   <div class="deal-top">
     <div class="deal-name"><a href="https://www.calm.com/" target="_blank" rel="noopener">Calm</a></div>
     <span class="status-badge status-expected">Expected</span>
@@ -2484,13 +2537,15 @@ footer a:hover { text-decoration: underline; }
       <a href="https://github.com/Shashankt255/black-friday-deals-2026/blob/main/CONTRIBUTING.md">Submit a Deal</a>
       <a href="https://github.com/Shashankt255/glasscage">GLASSCAGE</a>
     </div>
-    <p>Updated November 17, 2026 &bull; No affiliate links &bull; Maintained by <a href="https://github.com/Shashankt255">Shashankt255</a></p>
+    <p>Updated November 18, 2026 &bull; No affiliate links &bull; Maintained by <a href="https://github.com/Shashankt255">Shashankt255</a></p>
   </footer>
 </div>
 
 <script>
 const search = document.getElementById('search');
 const filterBtns = document.querySelectorAll('.filter-btn');
+const regionFilter = document.getElementById('regionFilter');
+const audienceFilter = document.getElementById('audienceFilter');
 const deals = document.querySelectorAll('.deal-card');
 const sections = document.querySelectorAll('.category-section');
 const noResults = document.getElementById('noResults');
@@ -2499,13 +2554,19 @@ let activeFilter = 'all';
 
 function applyFilters() {
   const q = search.value.toLowerCase().trim();
+  const region = regionFilter.value;
+  const audience = audienceFilter.value;
   let visible = 0;
   deals.forEach(card => {
     const text = card.textContent.toLowerCase();
     const status = card.dataset.status;
+    const cardRegion = card.dataset.region;
+    const cardAudience = card.dataset.audience;
     const matchSearch = !q || text.includes(q);
-    const matchFilter = activeFilter === 'all' || status === activeFilter;
-    const show = matchSearch && matchFilter;
+    const matchStatus = activeFilter === 'all' || status === activeFilter;
+    const matchRegion = region === 'all' || cardRegion === region;
+    const matchAudience = audience === 'all' || cardAudience === audience;
+    const show = matchSearch && matchStatus && matchRegion && matchAudience;
     card.hidden = !show;
     if (show) visible++;
   });
@@ -2515,10 +2576,13 @@ function applyFilters() {
     sec.hidden = !anyVisible;
   });
   noResults.hidden = visible > 0;
-  resultCount.textContent = q || activeFilter !== 'all' ? visible + ' deal' + (visible !== 1 ? 's' : '') : '';
+  const hasFilter = q || activeFilter !== 'all' || region !== 'all' || audience !== 'all';
+  resultCount.textContent = hasFilter ? visible + ' deal' + (visible !== 1 ? 's' : '') : '';
 }
 
 search.addEventListener('input', applyFilters);
+regionFilter.addEventListener('change', applyFilters);
+audienceFilter.addEventListener('change', applyFilters);
 filterBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     filterBtns.forEach(b => b.classList.remove('active'));

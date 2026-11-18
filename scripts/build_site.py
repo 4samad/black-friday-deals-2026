@@ -90,6 +90,16 @@ def parse_deal_row(cells):
     else:
         status_type = 'info'
 
+    region = "global"
+    audience = "everyone"
+    deal_raw = cells[2] if len(cells) > 2 else ""
+    if '\U0001f1fa\U0001f1f8' in deal_raw:
+        region = "us"
+    elif '\U0001f1ec\U0001f1e7' in deal_raw:
+        region = "uk"
+    if '\U0001f393' in deal_raw:
+        audience = "student"
+
     return {
         "name": re.sub(r'~~(.+?)~~', r'\1', name).strip(),
         "url": url,
@@ -97,6 +107,8 @@ def parse_deal_row(cells):
         "deal": clean_md(deal),
         "status": status_type,
         "expired": expired,
+        "region": region,
+        "audience": audience,
     }
 
 
@@ -197,7 +209,7 @@ def generate_html(categories):
                 name_html = f'<a href="{escape(row["url"])}" target="_blank" rel="noopener">{escape(row["name"])}</a>' if row["url"] else escape(row["name"])
                 expired_class = ' expired-row' if row["expired"] else ''
 
-                rows_html += f'''<div class="deal-card{expired_class}" data-status="{status_class}">
+                rows_html += f'''<div class="deal-card{expired_class}" data-status="{status_class}" data-region="{row["region"]}" data-audience="{row["audience"]}">
   <div class="deal-top">
     <div class="deal-name">{name_html}</div>
     <span class="status-badge status-{status_class}">{status_label}</span>
@@ -396,6 +408,17 @@ body {
 }
 .filter-btn:hover { border-color: var(--fg-3); }
 .filter-btn.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.filter-select {
+  font-family: var(--font); font-size: 0.78rem; font-weight: 500;
+  padding: 0.3rem 0.6rem; border-radius: 20px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--bg-raised); color: var(--fg-2);
+  appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238a8780'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 0.5rem center;
+  padding-right: 1.4rem; transition: all 0.15s;
+}
+.filter-select:hover { border-color: var(--fg-3); }
+.filter-select:focus { border-color: var(--accent); outline: none; }
 .result-count { font-size: 0.78rem; color: var(--fg-3); margin-left: auto; }
 
 /* Category nav chips */
@@ -540,6 +563,16 @@ footer a:hover { text-decoration: underline; }
       <button class="filter-btn active" data-filter="all">All</button>
       <button class="filter-btn" data-filter="confirmed">Confirmed</button>
       <button class="filter-btn" data-filter="expected">Expected</button>
+      <select class="filter-select" id="regionFilter">
+        <option value="all">All Regions</option>
+        <option value="global">🌍 Global</option>
+        <option value="us">🇺🇸 US Only</option>
+        <option value="uk">🇬🇧 UK Only</option>
+      </select>
+      <select class="filter-select" id="audienceFilter">
+        <option value="all">Everyone</option>
+        <option value="student">🎓 Student / Edu</option>
+      </select>
       <span class="result-count" id="resultCount"></span>
     </div>
   </div>
@@ -570,6 +603,8 @@ footer a:hover { text-decoration: underline; }
 <script>
 const search = document.getElementById('search');
 const filterBtns = document.querySelectorAll('.filter-btn');
+const regionFilter = document.getElementById('regionFilter');
+const audienceFilter = document.getElementById('audienceFilter');
 const deals = document.querySelectorAll('.deal-card');
 const sections = document.querySelectorAll('.category-section');
 const noResults = document.getElementById('noResults');
@@ -578,13 +613,19 @@ let activeFilter = 'all';
 
 function applyFilters() {
   const q = search.value.toLowerCase().trim();
+  const region = regionFilter.value;
+  const audience = audienceFilter.value;
   let visible = 0;
   deals.forEach(card => {
     const text = card.textContent.toLowerCase();
     const status = card.dataset.status;
+    const cardRegion = card.dataset.region;
+    const cardAudience = card.dataset.audience;
     const matchSearch = !q || text.includes(q);
-    const matchFilter = activeFilter === 'all' || status === activeFilter;
-    const show = matchSearch && matchFilter;
+    const matchStatus = activeFilter === 'all' || status === activeFilter;
+    const matchRegion = region === 'all' || cardRegion === region;
+    const matchAudience = audience === 'all' || cardAudience === audience;
+    const show = matchSearch && matchStatus && matchRegion && matchAudience;
     card.hidden = !show;
     if (show) visible++;
   });
@@ -594,10 +635,13 @@ function applyFilters() {
     sec.hidden = !anyVisible;
   });
   noResults.hidden = visible > 0;
-  resultCount.textContent = q || activeFilter !== 'all' ? visible + ' deal' + (visible !== 1 ? 's' : '') : '';
+  const hasFilter = q || activeFilter !== 'all' || region !== 'all' || audience !== 'all';
+  resultCount.textContent = hasFilter ? visible + ' deal' + (visible !== 1 ? 's' : '') : '';
 }
 
 search.addEventListener('input', applyFilters);
+regionFilter.addEventListener('change', applyFilters);
+audienceFilter.addEventListener('change', applyFilters);
 filterBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     filterBtns.forEach(b => b.classList.remove('active'));

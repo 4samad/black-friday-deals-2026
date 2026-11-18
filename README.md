@@ -22,6 +22,10 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | ❌ | **No deal expected** — vendor has no history of seasonal discounts |
 | 💸 | **50% OFF or more** |
 | ♾️ | **Lifetime deal** — pay once, use forever |
+| 🌍 | **Global** — available worldwide (default; tag omitted on most deals) |
+| 🇺🇸 | **US only** — available in the United States only |
+| 🇬🇧 | **UK only** — available in the United Kingdom only |
+| 🎓 | **Student/Edu** — student, teacher, or education discount |
 
 ---
 
@@ -272,8 +276,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| AZ-900 Azure Fundamentals | Microsoft Azure entry cert | **$44.99** (reg $99) | ⏳ |
-| CLF-C02 AWS Cloud Practitioner | AWS entry cert | **$36.99** (reg $100) | ⏳ |
+| AZ-900 Azure Fundamentals | Microsoft Azure entry cert | 🎓 **$44.99** (reg $99) | ⏳ |
+| CLF-C02 AWS Cloud Practitioner | AWS entry cert | 🎓 **$36.99** (reg $100) | ⏳ |
 | [FindExams](https://findexams.com/) | Exam simulators: PMP, CBAP, ITIL 4, more | **Up to 50% OFF** (Nov 16 – Nov 30) | ✅ |
 
 ### Tech Books
@@ -292,7 +296,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Affinity Suite V2](https://affinity.serif.com/) | Designer, Photo, Publisher | **FREE** (Canva made Affinity free; AI features need paid Canva) | ✅ |
-| [Adobe Creative Cloud](https://www.adobe.com/) | Photoshop, Illustrator, Premiere | 💸 **57% OFF** All Apps first year ($29.99/mo, reg $69.99); students 77% OFF ($15.99/mo) — through Nov 27 | ✅ |
+| [Adobe Creative Cloud](https://www.adobe.com/) | Photoshop, Illustrator, Premiere | 💸 **57% OFF** All Apps first year ($29.99/mo, reg $69.99); 🎓 students 77% OFF ($15.99/mo) — through Nov 27 | ✅ |
 | [Envato Elements](https://elements.envato.com/) | Unlimited stock assets & templates | **Up to 50% OFF** annual | ⏳ |
 | [LS Graphics](https://ls.graphics/) | Mockup editor + 100+ mockup scene bundles | **50% OFF** all bundles & plans (Nov 6 – Dec 1) | ✅ |
 | [Lineicons](https://lineicons.com/) | 30,000+ vector icons in 10 styles | **40% OFF** — code `BLFCM2026` (Nov 18 – Dec 2) | ✅ |
@@ -396,20 +400,20 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| Meta Quest 3S 128GB | Standalone VR headset + 12-mo subscription | **$199** at Costco | ✅ |
+| Meta Quest 3S 128GB | Standalone VR headset + 12-mo subscription | 🇺🇸 **$199** at Costco | ✅ |
 | Meta Quest 3S 256GB | + Batman bundle | **$71 OFF** | ✅ |
-| Super Mario Galaxy (Switch 2) | 30% off at Target | **30% OFF** | ✅ |
-| Nintendo Switch 2 Mario Kart World Bundle | Console + Mario Kart World + 3-mo NSO | **$499** ($50 off, reg $549) + $20 off select games — Nov 22 – Dec 5 | ✅ |
+| Super Mario Galaxy (Switch 2) | 30% off at Target | 🇺🇸 **30% OFF** | ✅ |
+| Nintendo Switch 2 Mario Kart World Bundle | Console + Mario Kart World + 3-mo NSO | 🇺🇸 **$499** ($50 off, reg $549) + $20 off select games — Nov 22 – Dec 5 | ✅ |
 
 ### Gaming Laptops
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| MSI Cyborg (RTX 5050) | Budget gaming laptop | **$899** at Walmart | ✅ |
-| Gigabyte Aero X16 (RTX 5060) | Mid-range gaming/creator | **$1,224.99** at Best Buy | ✅ |
-| Acer Nitro V 16S (RTX 5070) | High-performance | **$1,550** at Amazon | ✅ |
+| MSI Cyborg (RTX 5050) | Budget gaming laptop | 🇺🇸 **$899** at Walmart | ✅ |
+| Gigabyte Aero X16 (RTX 5060) | Mid-range gaming/creator | 🇺🇸 **$1,224.99** at Best Buy | ✅ |
+| Acer Nitro V 16S (RTX 5070) | High-performance | 🇺🇸 **$1,550** at Amazon | ✅ |
 | MSI Vector 16 HX AI (RTX 5070 Ti) | Strongest early BF GPU deal | **$1,599** | ✅ |
-| Best Buy PC Gaming Sale | Up to $1,000 off select laptops | **Live now** | ✅ |
+| Best Buy PC Gaming Sale | Up to $1,000 off select laptops | 🇺🇸 **Live now** | ✅ |
 
 ### Gaming Monitors
 
@@ -444,17 +448,17 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| MacBook Air 13 M5 (16/512GB) | Apple's lightweight workhorse | **$1,099.99** (~$199 off) at Amazon | ✅ |
-| MacBook Air 13 M5 (16/1TB) | Higher storage | **$1,349.99** (~$249 off) at Amazon | ✅ |
-| Dell XPS 13 (3K Touch) | Compact ultrabook | **$599.99** ($200 off) at Best Buy | ✅ |
-| Dell XPS 13 (16GB/512GB) | Higher config | **$999.99** (all-time low) at Best Buy | ✅ |
-| [Lenovo ThinkPad / Yoga / Legion](https://www.lenovo.com/us/en/deals/black-friday-sale/) | Full Lenovo lineup | **27-68% OFF** — ThinkPad X1 Carbon ~$1,524, Yoga 7 ~$749 | ✅ |
+| MacBook Air 13 M5 (16/512GB) | Apple's lightweight workhorse | 🇺🇸 **$1,099.99** (~$199 off) at Amazon | ✅ |
+| MacBook Air 13 M5 (16/1TB) | Higher storage | 🇺🇸 **$1,349.99** (~$249 off) at Amazon | ✅ |
+| Dell XPS 13 (3K Touch) | Compact ultrabook | 🇺🇸 **$599.99** ($200 off) at Best Buy | ✅ |
+| Dell XPS 13 (16GB/512GB) | Higher config | 🇺🇸 **$999.99** (all-time low) at Best Buy | ✅ |
+| [Lenovo ThinkPad / Yoga / Legion](https://www.lenovo.com/us/en/deals/black-friday-sale/) | Full Lenovo lineup | 🇺🇸 **27-68% OFF** — ThinkPad X1 Carbon ~$1,524, Yoga 7 ~$749 | ✅ |
 
 ### Storage
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| Samsung 9100 PRO 2TB (PCIe 5.0) | Flagship NVMe | **$399.99** at Amazon | ✅ |
+| Samsung 9100 PRO 2TB (PCIe 5.0) | Flagship NVMe | 🇺🇸 **$399.99** at Amazon | ✅ |
 | Crucial P510 1TB (PCIe 4.0) | Budget NVMe | **$153** at Newegg (~33% off) | ✅ |
 | Team Group MP44 4TB | High-capacity NVMe | **$325.99** at Newegg | ✅ |
 
@@ -464,17 +468,17 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| AirPods Pro 3 | Apple ANC earbuds | **$179** ($70 off, was $249) | ✅ |
-| AirPods 4 | Latest Apple earbuds | Best-ever pricing at Amazon | ✅ |
-| Sony WH-1000XM6 | Premium ANC over-ear | **$378** at Amazon | ✅ |
+| AirPods Pro 3 | Apple ANC earbuds | 🇺🇸 **$179** ($70 off, was $249) | ✅ |
+| AirPods 4 | Latest Apple earbuds | 🇺🇸 Best-ever pricing at Amazon | ✅ |
+| Sony WH-1000XM6 | Premium ANC over-ear | 🇺🇸 **$378** at Amazon | ✅ |
 
 ### Tablets & Smartwatches
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| iPad 11" A16 (128GB) | Latest base iPad | **~20% OFF** at multiple retailers | ✅ |
-| Apple Watch Ultra 2 | Rugged smartwatch | Early steep discounts live | ✅ |
-| Apple Watch Series 12 | Latest mainstream | Listed in Amazon BF deals | ✅ |
+| iPad 11" A16 (128GB) | Latest base iPad | 🇺🇸 **~20% OFF** at multiple retailers | ✅ |
+| Apple Watch Ultra 2 | Rugged smartwatch | 🇺🇸 Early steep discounts live | ✅ |
+| Apple Watch Series 12 | Latest mainstream | 🇺🇸 Listed in Amazon BF deals | ✅ |
 
 ### Networking & Home Lab
 
@@ -556,8 +560,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | [Oura Ring Gen 4](https://ouraring.com/) | Smart ring for sleep & recovery | **10-20% OFF** + free month membership | ✅ |
 | [Whoop 5.0](https://www.whoop.com/) | Strain & recovery monitor | 2-year $299 (was $398), 3-year $399 (was $597) — main sale Nov 19 – Dec 1 | ✅ |
-| Apple Watch Series 12 | Health/fitness smartwatch | **$329** 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off) | ✅ |
-| Garmin Forerunner 265 | GPS running watch | **33% OFF** $299.99 (reg $449.99) on Amazon — live now | ✅ |
+| Apple Watch Series 12 | Health/fitness smartwatch | 🇺🇸 **$329** 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off) | ✅ |
+| Garmin Forerunner 265 | GPS running watch | 🇺🇸 **33% OFF** $299.99 (reg $449.99) on Amazon — live now | ✅ |
 
 ### Standing Desks & Chairs
 
@@ -573,15 +577,15 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Therabody (Theragun)](https://www.therabody.com/) | Percussion massage guns | **Up to 50% OFF** sitewide | ✅ |
-| [Hyperice](https://www.hyperice.com/) | Massage guns & compression | **Up to $200 OFF** at Best Buy | ✅ |
+| [Hyperice](https://www.hyperice.com/) | Massage guns & compression | 🇺🇸 **Up to $200 OFF** at Best Buy | ✅ |
 | [Myprotein](https://www.myprotein.com/) | Protein, creatine, supplements | **Up to 70% OFF** — live now through Cyber Monday | ✅ |
 
 ### Meal Delivery
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| [HelloFresh](https://www.hellofresh.com/) | Weekly meal kits | Free ZWILLING wok + **10 free meals** (new subs) | ✅ |
-| [Factor](https://www.factor75.com/) | Prepared meals delivered | **Up to $130 OFF** + free breakfast for a year | ✅ |
+| [HelloFresh](https://www.hellofresh.com/) | Weekly meal kits | 🇺🇸 Free ZWILLING wok + **10 free meals** (new subs) | ✅ |
+| [Factor](https://www.factor75.com/) | Prepared meals delivered | 🇺🇸 **Up to $130 OFF** + free breakfast for a year | ✅ |
 
 ### Wellness Apps
 
