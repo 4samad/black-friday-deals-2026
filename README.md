@@ -100,6 +100,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [DevIntern](https://devintern.com/pricing/) | Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations | **40% OFF** the first invoice — code `BLACKFRIDAY26` (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo | ✅ |
 | [Wovo](https://wovo.one/#pricing) | AI/MCP that turns any AI into a multi-device agent across your computers | **50% OFF** Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026) | ✅ |
 | [data-peek](https://www.datapeek.dev/pricing) | Keyboard-first SQL client for Postgres, MySQL, SQL Server, SQLite and ClickHouse on Mac, Windows and Linux | **40% OFF** Pro yearly, $29 → $17.40, auto-applied at checkout (Nov 26 – Dec 1) | ✅ |
+| [Social Fetch](https://www.socialfetch.dev/black-friday) | Public social data API and MCP server (TikTok, Instagram, YouTube, X, Reddit, LinkedIn) | **2x CREDITS** on every plan, automatic at checkout, no code (Nov 19 to Dec 1) | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -252,6 +253,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [MasterClass](https://www.masterclass.com/) | Celebrity-taught classes | **50% OFF** | ⏳ |
 | [LabEx Pro (1 Year)](https://labex.io/checkout?type=2&coupon=2026BF30) | Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud | **30% OFF** — **$69.90** with code `2026BF30` (active now; ends Dec 7) | ✅ |
 | [LabEx Pro (2 Years)](https://labex.io/checkout?type=4&coupon=2026BF50) | Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud | **50% OFF** — **$99.90** with code `2026BF50` (active now; ends Dec 7) | ✅ |
+| [CyberWarFare Labs](https://cyberwarfare.live/) | Hands-on cybersecurity training, practical labs, and industry-relevant certifications across Red Team, Blue Team, Cloud Security, AI Security, and more. | **Up to 90% OFF** bundles · Certifications from $5 · Infinity Yearly $49 with 2 free certifications. Coupons: `INFINITY49` (Yearly), `INFINITY5` (Monthly). (Nov 12 – Dec 1, 2026) | ✅ |
 
 ### Cybersecurity Training
 
