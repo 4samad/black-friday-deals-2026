@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2018%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-271-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-260-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 271 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 260 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -36,7 +36,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
-- **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. 271 total deals.
+- **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. Deduplicated 11 entries appearing in multiple categories. 260 total deals.
 - **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
 - **Nov 17** — 5 community PRs merged: Perisclaw, Outpublished, Faivelo, Refine, Paste
 - **Nov 17** — Adobe Creative Cloud BF sale confirmed: 57% OFF All Apps ($29.99/mo first year)
@@ -105,7 +105,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Piloterr](https://piloterr.com/) | Web scraping & data extraction API | **50% OFF** first 3 months — code `BLACKFRIDAY50` (through Nov 30) | ✅ |
 | [Poedit](https://poedit.net/) | Translation editor (gettext/XLIFF) | **30% OFF** — code `BF26` (Nov 4 – Dec 3) | ✅ |
 | [CodedThemes](https://codedthemes.com/) | React/Angular/Vue admin dashboards | **40% OFF** storewide | ⏳ |
-| [Paperform](https://paperform.co/) | No-code form builder with developer API | **50% OFF** annual | ⏳ |
+| [Paperform](https://paperform.co/) | No-code form builder with developer API | **50% OFF** 12 months — code `PFBF26` (Nov 16–30) | ✅ |
 | [RealUptime](https://realuptime.io/pricing) | Uptime monitoring, status pages and error tracking on one plan | **50% OFF for life** for the first 20 customers, then **40% OFF** the first year; automatic, no code (Nov 23 – Nov 30) | ✅ |
 | [DevIntern](https://devintern.com/pricing/) | Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations | **40% OFF** the first invoice — code `BLACKFRIDAY26` (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo | ✅ |
 | [Wovo](https://wovo.one/#pricing) | AI/MCP that turns any AI into a multi-device agent across your computers | **50% OFF** Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026) | ✅ |
@@ -128,7 +128,6 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [The SecOps Group](https://secops-group.io/) | Pentesting certification exams | **90% OFF** exams — code `BF-90` | ✅ |
 | [pwn.guide](https://pwn.guide/) | Ethical hacking + CompTIA prep | **20% OFF** all plans incl. lifetime — code `BLKFRI20` (ends Dec 5) | ✅ |
 | [VantagePoint](https://vantagepointsec.com/) | Hacking labs and certifications | **70% OFF** all labs & certs (Nov 2 – Dec 15) | ✅ |
-| [OffSec (OSCP)](https://www.offsec.com/) | Learn One subscription — OSCP, OSWP, OSEP prep | **20% OFF** Learn One (~$550 savings) | ✅ |
 | [INE Security](https://ine.com/) | Pentesting, blue team, cloud security | **~50% OFF** Premium (sale starts Nov 20) | ⏳ |
 | [HackTheBox](https://www.hackthebox.com/) | Pentesting labs & Academy | **25-40% OFF** annual plans | ⏳ |
 | [TryHackMe](https://tryhackme.com/) | Beginner-friendly cyber training | **~40% OFF** annual | ⏳ |
@@ -136,7 +135,6 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Wireless Operator](https://thexero.co.uk/wirelessoperator/) | Wi-Fi pentesting course by TheXero | **67% OFF** — $599 → $197 (Nov 10 – Dec 1) | ✅ |
 | [AppSec.training](https://appsec.training/) | Application security & DevSecOps courses | **50% OFF** — code `blackfriday` (Nov 13 – Dec 31) | ✅ |
 | [Vibe App Scanner](https://vibeappscanner.com/) | Source-code + live-app security scanner | **60% OFF** first month Go/Pro — auto-applied (Nov 10 – Nov 30) | ✅ |
-| [CyberWarFare Labs](https://cyberwarfare.live/) | Red team, cloud security, AD pentesting certs | 💸 **Up to 91% OFF** — most courses $9, bundles $29–$149 | ✅ |
 | [HackTricks Training](https://training.hacktricks.xyz/) | Cloud red team bundles (AWS/GCP/Azure) | **10% OFF** cloud red team bundles | ✅ |
 | [Blue Cape Security](https://bluecapesecurity.com/) | Incident response & threat hunting training | 💸 **$700 OFF** HERO IR training bundle ($1,497) | ✅ |
 | [MalDev Academy](https://maldevacademy.com/) | Malware development courses | **25% OFF** all courses | ✅ |
@@ -275,12 +273,6 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
-| [INE / eLearnSecurity](https://ine.com/) | Pentesting, blue team, cloud certs | Sale starts **Nov 20** — code `BF-90` (Nov 2 – Dec 15) | ✅ |
-| [OffSec (OSCP/OSWP)](https://www.offsec.com/) | Learn One subscription | **20% OFF** (~$550 savings); 15% OFF bundles | ✅ |
-| [Practical DevSecOps](https://www.practical-devsecops.com/) | 11 DevSecOps certifications | **15% OFF** certs, up to **$600 OFF** bundles | ✅ |
-| [TrainSec](https://trainsec.net/) | SOC, pentesting, forensics | **40% OFF** — code `BF2026` | ✅ |
-| [VantagePoint](https://vantagepointsec.com/) | Hacking labs & certifications | **70% OFF** (Nov 2 – Dec 15) | ✅ |
-| [pwn.guide](https://pwn.guide/) | Offensive security practice | **20% OFF** lifetime — code `BLKFRI20` (ends Dec 5) | ✅ |
 | [CompTIA Bundle](https://www.stacksocial.com/) | 9 CompTIA exam prep courses | **$25-38** (was $200-270) | ✅ |
 
 ### Cert Exam Vouchers
@@ -321,7 +313,6 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Rank Math](https://rankmath.com/) | WordPress SEO plugin | Sale window opened **Oct 28** | ✅ |
 | [Nuelink](https://offer.nuelink.com/mcp/) | Agentic social media scheduling and automation for 12 platforms | **50% OFF** yearly plans (6 months free) / **25% OFF** first 3 monthly payments — code `BFCM26` (Nov 6 – Nov 30) | ✅ |
 | [Outpublished](https://outpublished.com/black-friday) | Shows every page your competitors have that you don't, and tells you the day they publish a new one | **40% OFF** any plan, monthly or yearly, kept while you stay subscribed: Starter $23/mo (was $39), first 150 accounts, no code (Nov 20 – Dec 4) | ✅ |
-| [Semrush](https://www.semrush.com/) | All-in-one SEO platform | **17% OFF** annual | ⏳ |
 | [Ahrefs](https://ahrefs.com/) | SEO toolset | **No Black Friday sale** (never discounts) | ❌ |
 
 ### Productivity & Project Management
@@ -330,7 +321,6 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | [Chanty](https://www.chanty.com/) | Team chat & task management | **40% OFF** annual / 25% OFF monthly (Nov 13–30) | ✅ |
 | [Taskip](https://taskip.net/) | Project management & client portal | **70% OFF** annual ($11.70/mo, was $39) | ✅ |
-| [Paperform](https://paperform.co/) | Online forms & surveys | **50% OFF** 12 months — code `PFBF26` (Nov 16–30) | ✅ |
 | [EngageBay](https://www.engagebay.com/) | All-in-one CRM, marketing, sales | **40% OFF** all plans (Nov 9 – Dec 4) | ✅ |
 | [SimpleFill](https://simplefill.app) | Text expansion, AI actions & one-click form filling in your browser | **25% OFF** one-time plans ($29 → $21.75), code `LAUNCH` (Nov 10 – Dec 7) | ✅ |
 | [DailyRemote](https://dailyremote.com/get-started) | Remote job board with salary filters and daily job alerts | **39% OFF** Premium monthly, quarterly and yearly plans — code `BFBNRTZSY` (Nov 12 – Dec 1) | ✅ |
@@ -514,7 +504,6 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Product | Description | Deal | Status |
 |---------|-------------|------|--------|
 | [Pipedrive](https://www.pipedrive.com/) | Sales CRM & pipeline | **35% OFF** annual | ✅ |
-| [EngageBay](https://www.engagebay.com/) | All-in-one CRM | **40% OFF** all plans (Nov 9 – Dec 4) | ✅ |
 | [HubSpot](https://www.hubspot.com/) | CRM, marketing, sales | **Up to 45-50% OFF** annual | ⏳ |
 | [Zoho CRM](https://www.zoho.com/) | Small-mid business CRM | **Up to 25% OFF** annual | ⏳ |
 
@@ -581,7 +570,6 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | [FlexiSpot](https://www.flexispot.com/) | Electric sit-stand desks | Deals **live now** (~$300, reg $499) | ✅ |
 | ~~[Herman Miller Aeron](https://www.hermanmiller.com/)~~ | Iconic ergonomic chair | ~~25% OFF~~ — **EXPIRED** Nov 12 | ❌ |
-| [Secretlab TITAN Evo](https://secretlab.co/) | Premium gaming/office chair | **Up to $100 OFF** — from $499 (Nov 12 – Dec 5) | ✅ |
 | UPLIFT V2 | Standing desk | $100-200 off | ⏳ |
 
 ### Recovery & Fitness
