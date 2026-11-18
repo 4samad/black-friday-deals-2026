@@ -251,6 +251,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [MasterClass](https://www.masterclass.com/) | Celebrity-taught classes | **50% OFF** | ⏳ |
 | [LabEx Pro (1 Year)](https://labex.io/checkout?type=2&coupon=2026BF30) | Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud | **30% OFF** — **$69.90** with code `2026BF30` (active now; ends Dec 7) | ✅ |
 | [LabEx Pro (2 Years)](https://labex.io/checkout?type=4&coupon=2026BF50) | Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud | **50% OFF** — **$99.90** with code `2026BF50` (active now; ends Dec 7) | ✅ |
+| [CyberWarFare Labs](https://cyberwarfare.live/) | Hands-on cybersecurity training, practical labs, and industry-relevant certifications across Red Team, Blue Team, Cloud Security, AI Security, and more. | **Up to 90% OFF** bundles · Certifications from $5 · Infinity Yearly $49 with 2 free certifications. Coupons: `INFINITY49` (Yearly), `INFINITY5` (Monthly). (Nov 12 – Dec 1, 2026) | ✅ |
 
 ### Cybersecurity Training
 
