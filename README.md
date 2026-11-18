@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2017%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-252-blue)](#)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2018%2C%202026-brightgreen)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-264-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 252 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 264 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -27,6 +27,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 18** — Merged 4 community PRs: Social Fetch, data-peek, Float, CyberWarFare Labs. Flipped ⏳→✅: Nintendo Switch 2 bundle (confirmed $499, Nov 22–Dec 5 + $20 off games + 3-mo NSO), Garmin Forerunner 265 (33% OFF $299.99 on Amazon, live now). 264 total deals.
 - **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
 - **Nov 17** — 5 community PRs merged: Perisclaw, Outpublished, Faivelo, Refine, Paste
 - **Nov 17** — Adobe Creative Cloud BF sale confirmed: 57% OFF All Apps ($29.99/mo first year)
@@ -100,6 +101,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [DevIntern](https://devintern.com/pricing/) | Self-hosted worker that turns tracker tickets into PRs with your own coding agent across multiple repos, plus automations | **40% OFF** the first invoice — code `BLACKFRIDAY26` (Nov 20 – Dec 1). Team $99 → $59.40/mo; Business $299 → $179.40/mo | ✅ |
 | [Wovo](https://wovo.one/#pricing) | AI/MCP that turns any AI into a multi-device agent across your computers | **50% OFF** Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026) | ✅ |
 | [Social Fetch](https://www.socialfetch.dev/black-friday) | Public social data API and MCP server (TikTok, Instagram, YouTube, X, Reddit, LinkedIn) | **2x CREDITS** on every plan, automatic at checkout, no code (Nov 19 to Dec 1) | ✅ |
+| [data-peek](https://www.datapeek.dev/pricing) | Keyboard-first SQL client for Postgres, MySQL, SQL Server, SQLite and ClickHouse on Mac, Windows and Linux | **40% OFF** Pro yearly, $29 → $17.40, auto-applied at checkout (Nov 26 – Dec 1) | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -323,6 +325,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [DigiCard Pro](https://digicard.pro/?ref=black-friday-deals-2026) | Digital business card for Apple & Google Wallet | **50% OFF** Pro, one-time ($49.99 → $24.99) — code `DIGI50` (Nov 23 – Nov 30) | ⏳ |
 | [Wishbar](https://wishbar.app/black-friday) | Mac menu bar app: type what you want and your own ChatGPT or Claude builds a live widget | **50% OFF** one-time licences, no code needed: 1 Mac $39 → $19, 2 Macs $49 → $24, 5 Macs $69 → $34 (Nov 16 – Dec 7) | ✅ |
 | [Paste](https://pasteapp.io/black-friday-2026) | Paste is a productivity app for Mac, iPhone, and iPad that remembers everything you copy | 💸 **50% OFF** the first year of Annual ($29.99 → $14.99), code `BLACKFRIDAY2026` (Nov 20 – Dec 1) | ⏳ |
+| [Float](https://float.gilla.fun/#pricing) | Floating Markdown scratchpad for Mac that stays over full-screen apps | **40% OFF** Pro lifetime, $4.99 → $2.99, code `BF26FLOAT` (Nov 26 – Dec 1) | ✅ |
 
 ### Automation
 
@@ -396,7 +399,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | Meta Quest 3S 128GB | Standalone VR headset + 12-mo subscription | **$199** at Costco | ✅ |
 | Meta Quest 3S 256GB | + Batman bundle | **$71 OFF** | ✅ |
 | Super Mario Galaxy (Switch 2) | 30% off at Target | **30% OFF** | ✅ |
-| Nintendo Switch 2 Mario Kart World Bundle | Console + Mario Kart World | **$499** ($50 off, reg $549) — starts Nov 19 | ⏳ |
+| Nintendo Switch 2 Mario Kart World Bundle | Console + Mario Kart World + 3-mo NSO | **$499** ($50 off, reg $549) + $20 off select games — Nov 22 – Dec 5 | ✅ |
 
 ### Gaming Laptops
 
@@ -554,7 +557,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Oura Ring Gen 4](https://ouraring.com/) | Smart ring for sleep & recovery | **10-20% OFF** + free month membership | ✅ |
 | [Whoop 5.0](https://www.whoop.com/) | Strain & recovery monitor | 2-year $299 (was $398), 3-year $399 (was $597) — main sale Nov 19 – Dec 1 | ✅ |
 | Apple Watch Series 12 | Health/fitness smartwatch | **$329** 42mm GPS ($70 off), $379 46mm; Ultra 4 $699 ($100 off) | ✅ |
-| Garmin Forerunner 265 | GPS running watch | ~$100 off ($299, reg $399) | ⏳ |
+| Garmin Forerunner 265 | GPS running watch | **33% OFF** $299.99 (reg $449.99) on Amazon — live now | ✅ |
 
 ### Standing Desks & Chairs
 
