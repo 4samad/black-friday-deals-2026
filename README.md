@@ -119,7 +119,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Chronoid](https://www.chronoid.app/) | Time tracking for Mac with auto-categorization | 💸 **50% OFF** Lifetime $149 → $74.50 — code `BLACKFRIDAY26` (Nov 3 – Dec 2) | ✅ |
 | [Abstract API](https://www.abstractapi.com/) | Developer APIs — IP geolocation, email validation, VAT | **20% OFF** any plan — code `BLACK20` (Nov 17 – Dec 10) | ✅ |
 | [FormBold](https://formbold.com/) | Form backend & API service | **30% OFF** yearly plans — code `BLFCM2026` (Nov 17 – Dec 1) | ✅ |
-| [DocuGenerate](https://docugenerate.com/) | Document generation API | **50% OFF** all plans | ✅ |
+| [DocuGenerate](https://docugenerate.com/) | Document generation API | **50% OFF** all plans | ✅
+| [BundleWP](https://bundlewp.com/complete-business-software-bundle/) | Complete Business Software Bundle: FoodFleet, ShopKart, Billify, Auto Lead Pilot AI, Site Commander MCP, Pro Fin Suite, DataXtract Pro, WooFlow Manager, Fin Tools Theme, All In One Smart Extractor, Orbit Meet. Lifetime access, license keys delivered automatically. | **87% OFF** — $129 one-time (regular $1,029), code `BUNDLE129`, no expiry | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
