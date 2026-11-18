@@ -97,6 +97,16 @@ def parse_deal_row(cells):
         region = "us"
     elif '\U0001f1ec\U0001f1e7' in deal_raw:
         region = "uk"
+    elif '\U0001f1ee\U0001f1f3' in deal_raw:
+        region = "in"
+    elif '\U0001f1e8\U0001f1e6' in deal_raw:
+        region = "ca"
+    elif '\U0001f1ea\U0001f1fa' in deal_raw:
+        region = "eu"
+    elif '\U0001f1e9\U0001f1ea' in deal_raw:
+        region = "de"
+    elif '\U0001f1e6\U0001f1fa' in deal_raw:
+        region = "au"
     if '\U0001f393' in deal_raw:
         audience = "student"
 
@@ -566,8 +576,13 @@ footer a:hover { text-decoration: underline; }
       <select class="filter-select" id="regionFilter">
         <option value="all">All Regions</option>
         <option value="global">🌍 Global</option>
-        <option value="us">🇺🇸 US Only</option>
-        <option value="uk">🇬🇧 UK Only</option>
+        <option value="us">🇺🇸 US</option>
+        <option value="uk">🇬🇧 UK</option>
+        <option value="in">🇮🇳 India</option>
+        <option value="ca">🇨🇦 Canada</option>
+        <option value="eu">🇪🇺 EU</option>
+        <option value="de">🇩🇪 Germany</option>
+        <option value="au">🇦🇺 Australia</option>
       </select>
       <select class="filter-select" id="audienceFilter">
         <option value="all">Everyone</option>

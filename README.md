@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2018%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-264-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-271-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 264 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 271 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -23,15 +23,20 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | 💸 | **50% OFF or more** |
 | ♾️ | **Lifetime deal** — pay once, use forever |
 | 🌍 | **Global** — available worldwide (default; tag omitted on most deals) |
-| 🇺🇸 | **US only** — available in the United States only |
-| 🇬🇧 | **UK only** — available in the United Kingdom only |
+| 🇺🇸 | **US only** — United States only |
+| 🇬🇧 | **UK only** — United Kingdom only |
+| 🇮🇳 | **India** — India only |
+| 🇨🇦 | **Canada** — Canada only |
+| 🇪🇺 | **EU** — European Union |
+| 🇩🇪 | **Germany** — Germany only |
+| 🇦🇺 | **Australia** — Australia only |
 | 🎓 | **Student/Edu** — student, teacher, or education discount |
 
 ---
 
 ### 🆕 What's New (Updated Daily)
 
-- **Nov 18** — Merged 4 community PRs: Social Fetch, data-peek, Float, CyberWarFare Labs. Flipped ⏳→✅: Nintendo Switch 2 bundle (confirmed $499, Nov 22–Dec 5 + $20 off games + 3-mo NSO), Garmin Forerunner 265 (33% OFF $299.99 on Amazon, live now). 264 total deals.
+- **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. 271 total deals.
 - **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
 - **Nov 17** — 5 community PRs merged: Perisclaw, Outpublished, Faivelo, Refine, Paste
 - **Nov 17** — Adobe Creative Cloud BF sale confirmed: 57% OFF All Apps ($29.99/mo first year)
@@ -106,6 +111,11 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Wovo](https://wovo.one/#pricing) | AI/MCP that turns any AI into a multi-device agent across your computers | **50% OFF** Pro $144 → $72/yr and Max $348 → $174/yr — auto-applied, no code, new and existing users, price locked while subscribed (through Dec 15, 2026) | ✅ |
 | [Social Fetch](https://www.socialfetch.dev/black-friday) | Public social data API and MCP server (TikTok, Instagram, YouTube, X, Reddit, LinkedIn) | **2x CREDITS** on every plan, automatic at checkout, no code (Nov 19 to Dec 1) | ✅ |
 | [data-peek](https://www.datapeek.dev/pricing) | Keyboard-first SQL client for Postgres, MySQL, SQL Server, SQLite and ClickHouse on Mac, Windows and Linux | **40% OFF** Pro yearly, $29 → $17.40, auto-applied at checkout (Nov 26 – Dec 1) | ✅ |
+| [Tower](https://www.git-tower.com/) | Professional Git client for Mac & Windows | **50% OFF** new licenses — code `BF2026` | ✅ |
+| [Pulsetic](https://pulsetic.com/) | Uptime monitoring & beautiful status pages | **30% OFF** all plans — code `BF2026` (through Dec 1) | ✅ |
+| [JSON2Video](https://json2video.com/) | Programmatic video generation API | **25% OFF** first year of yearly plans — code `BF2026PIMJO` (Nov 24 – Dec 1) | ✅ |
+| [Wins](https://wins.cool/) | macOS window management & arrangement | **40% OFF** all plans — code `BF_26` (Nov 11 – Dec 1) | ✅ |
+| [Chronoid](https://www.chronoid.app/) | Time tracking for Mac with auto-categorization | 💸 **50% OFF** Lifetime $149 → $74.50 — code `BLACKFRIDAY26` (Nov 3 – Dec 2) | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -218,6 +228,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [MindPal](https://mindpal.io/) | AI agents & workflow builder | **60% OFF** first year any annual plan — code `BLACKFRIDAY2026` (Nov 10 – Dec 11) | ✅ |
 | [Rezi](https://www.rezi.ai/) | AI resume builder | **70% OFF** Pro 3 months — code `Blackfriday2026` (Nov 13 – Dec 11) | ✅ |
 | [Refine](https://refine.sh/) | Offline AI writing assistant for Mac with grammar and autocomplete (36 languages, local models) | **35% OFF** one-time license, no code needed (Nov 15 - Nov 30) | ✅ |
+| [AI Toolbox](https://www.ai-toolbox.co/) | Collection of AI tools in one app — text, image, code, chat | 💸 **50% OFF** Lifetime $49.50 — code `BLACKFRIDAY` (Nov 2 – Nov 30) | ✅ |
 | [TypeBoost](https://typeboost.ai/?ref=black-friday-deals-2026) | AI writing in every app on Mac, plus an iPhone keyboard | **50% OFF** first year of Pro annual ($60 → $30) — code `TYPEBOOST50` (Nov 23 – Nov 30) | ⏳ |
 | [Perisclaw](https://perisclaw.com/pricing) | AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks | **40% OFF** annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1) | ⏳ |
 
@@ -299,6 +310,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Adobe Creative Cloud](https://www.adobe.com/) | Photoshop, Illustrator, Premiere | 💸 **57% OFF** All Apps first year ($29.99/mo, reg $69.99); 🎓 students 77% OFF ($15.99/mo) — through Nov 27 | ✅ |
 | [Envato Elements](https://elements.envato.com/) | Unlimited stock assets & templates | **Up to 50% OFF** annual | ⏳ |
 | [LS Graphics](https://ls.graphics/) | Mockup editor + 100+ mockup scene bundles | **50% OFF** all bundles & plans (Nov 6 – Dec 1) | ✅ |
+| [Atmos](https://atmos.style/) | Color palette generator for design systems | 💸 **50% OFF** Lifetime plan — code `BF2026` (Nov 23 – Nov 29) | ✅ |
 | [Lineicons](https://lineicons.com/) | 30,000+ vector icons in 10 styles | **40% OFF** — code `BLFCM2026` (Nov 18 – Dec 2) | ✅ |
 
 ### SEO & Marketing
