@@ -346,6 +346,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [OttoKit](https://ottokit.com/) | No-code automation (1,200+ apps) | **57% OFF** lifetime | ✅ |
 | [Pabbly Plus](https://www.pabbly.com/) | Workflow automation & billing | **$799/yr** (was $1,428) — code `BFCM26` | ✅ |
 | [Coupler.io](https://www.coupler.io/) | Data integration & ETL for spreadsheets and dashboards | **20% OFF** all plans | ✅ |
+| [Relaybrook](https://relaybrook.bytesell.app/) | Ready-to-import n8n workflow packs (AI lead enrichment, inbox triage, content repurposing); crypto checkout only | **40% OFF** store-wide — code `BLACKFRIDAY40` (until Dec 1) | ✅ |
 
 ### Email Marketing
 
