@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2019%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-286-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-294-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 286 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 294 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -36,7 +36,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
-- **Nov 19 (PM)** — Competitor cross-reference: added 13 deals from InfoSec & dev BF repos (CyberGhost, IPVanish, PureVPN, Proton Mail, Tuta, Yubico, Hak5, Hexordia, Iximiuz Labs, Porkbun, GL.iNet, UGREEN NAS, ByteByteGo, Tailwind Plus, Polypane). 286 total deals.
+- **Nov 19 (PM2)** — Cross-ref trungdq88 repo: added Proxyman, TablePlus, Colossyan, PDF Pals, Superlist, Craft, Sip, DeskRest. 294 total deals.
+- **Nov 19 (PM)** — Competitor cross-reference: added 15 deals from InfoSec & dev BF repos (CyberGhost, IPVanish, PureVPN, Proton Mail, Tuta, Yubico, Hak5, Hexordia, Iximiuz Labs, Porkbun, GL.iNet, UGREEN NAS, ByteByteGo, Tailwind Plus, Polypane). 286 total deals.
 - **Nov 19 (AM2)** — Merged 3 community PRs: Relaybrook, Dar Templates, BundleWP. Flipped Educative.io ⏳→✅ (BF sale confirmed live). Added OffSec Learn One (20% OFF OSCP+ training). 272 total deals.
 - **Nov 19** — Big update pass: flipped 5 deals ⏳→✅ (DataCamp 60% OFF, Scalenut 65% OFF, Pictory 50% OFF, CodedThemes 60% OFF, Ableton 20% OFF + free Live 13 upgrade). Added 7 new deals: Abstract API, FormBold, DocuGenerate, Higgsfield, Coupler.io, 1minAI. Updated Whoop details. Amazon & Best Buy BF events now live. 266 total deals.
 - **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. Deduplicated 11 entries appearing in multiple categories. 260 total deals.
@@ -125,6 +126,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [BundleWP](https://bundlewp.com/complete-business-software-bundle/) | 11-app business software bundle (invoicing, POS, AI leads, MCP) | 💸 **87% OFF** lifetime — $129 one-time (reg $1,029), code `BUNDLE129` | ✅ |
 | [Tailwind Plus](https://tailwindcss.com/plus) | Official Tailwind UI components & templates | **Over 33% OFF** (through Dec 1) | ✅ |
 | [Polypane](https://polypane.app/) | Responsive & accessibility testing browser for developers | **25% OFF** all plans (through Dec 1) | ✅ |
+| [Proxyman](https://proxyman.io/) | macOS HTTP debugging proxy for developers | **30% OFF** all plans — code `BF2026` (Nov 19 – Dec 3) | ✅ |
+| [TablePlus](https://tableplus.com/) | Cross-platform database GUI (MySQL, Postgres, Redis, etc.) | **25% OFF** — code `BLACK_FRIDAY_2026` | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -251,6 +254,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [TypeBoost](https://typeboost.ai/?ref=black-friday-deals-2026) | AI writing in every app on Mac, plus an iPhone keyboard | **50% OFF** first year of Pro annual ($60 → $30) — code `TYPEBOOST50` (Nov 23 – Nov 30) | ⏳ |
 | [Perisclaw](https://perisclaw.com/pricing) | AI assistant that automates your work on WhatsApp: follow-ups, reminders and tasks | **40% OFF** annual plan ($200 → $120/yr), no code needed (Nov 27 – Dec 1) | ⏳ |
 | [1minAI](https://1min.ai/) | Multi-model AI platform (GPT, Claude, Gemini) | 💸 **86% OFF** Advanced Business Lifetime | ✅ |
+| [PDF Pals](https://pdfpals.com/) | AI-powered PDF reader and chat | ♾️ **Lifetime $149**; 20% OFF Basic/Plus — code `BF20` | ✅ |
 
 ### AI Image & Video
 
@@ -261,6 +265,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Canva Pro](https://www.canva.com/) | Design + AI image generation | ~50% OFF first 3 months | ⏳ |
 | [Renderly](https://renderly.video/pricing) | Video rendering API: JSON template and data in, MP4 out | **30% OFF** first payment of Creator or Business - code `BLACKFRIDAY2026` (Nov 27 - Dec 1) | ✅ |
 | [Higgsfield](https://higgsfield.ai/) | AI video generation (Ultra plan) | **60% OFF** annual — $50/mo (reg $129) | ✅ |
+| [Colossyan](https://www.colossyan.com/) | AI video generation with realistic avatars | **40% OFF** yearly — code `BLACKFRIDAY40` | ✅ |
 
 ### AI SEO & Marketing
 
@@ -328,6 +333,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [LS Graphics](https://ls.graphics/) | Mockup editor + 100+ mockup scene bundles | **50% OFF** all bundles & plans (Nov 6 – Dec 1) | ✅ |
 | [Atmos](https://atmos.style/) | Color palette generator for design systems | 💸 **50% OFF** Lifetime plan — code `BF2026` (Nov 23 – Nov 29) | ✅ |
 | [Lineicons](https://lineicons.com/) | 30,000+ vector icons in 10 styles | **40% OFF** — code `BLFCM2026` (Nov 18 – Dec 2) | ✅ |
+| [Sip](https://sipapp.io/) | macOS color picker for designers & developers | **50% OFF** — code `BLACKFRIDAY26` (Nov 27 – Nov 29) | ✅ |
 
 ### SEO & Marketing
 
@@ -357,6 +363,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Paste](https://pasteapp.io/black-friday-2026) | Paste is a productivity app for Mac, iPhone, and iPad that remembers everything you copy | 💸 **50% OFF** the first year of Annual ($29.99 → $14.99), code `BLACKFRIDAY2026` (Nov 20 – Dec 1) | ⏳ |
 | [Float](https://float.gilla.fun/#pricing) | Floating Markdown scratchpad for Mac that stays over full-screen apps | **40% OFF** Pro lifetime, $4.99 → $2.99, code `BF26FLOAT` (Nov 26 – Dec 1) | ✅ |
 | [Dar Templates](https://darjob.myshopify.com/collections/all) | Ready-made professional Excel systems for 36 professions: bookkeeping, rentals, contractors, restaurants, cleaning, salons | 💸 **50% OFF** any template, one-time purchase, code `BF50` (Nov 19 – Dec 1) | ✅ |
+| [Superlist](https://superlist.com/) | Task & project manager (from Wunderlist founders) | **50% OFF** first yearly — code `SUPERFRIDAY2026` | ✅ |
+| [Craft](https://www.craft.do/) | Notes & docs app with AI | **40% OFF** yearly — code `BLACKFRIDAY26-A` | ✅ |
 
 ### Automation
 
@@ -622,6 +630,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | [Headspace](https://www.headspace.com/) | Meditation & mindfulness | **50% OFF** first year (~$34.99) — Nov 12 – Dec 4 | ✅ |
 | [Calm](https://www.calm.com/) | Sleep & meditation | **40-50% OFF** | ⏳ |
+| [DeskRest](https://deskrest.app/) | Break reminder for healthy screen habits | 💸 **80% OFF** lifetime — code `BLACKFRIDAY80` | ✅ |
 
 ---
 
