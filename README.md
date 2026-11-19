@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2019%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-266-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-273-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 266 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 273 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -36,6 +36,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
+- **Nov 19 (PM)** — Merged 3 community PRs: Relaybrook, Dar Templates, BundleWP. Flipped Educative.io ⏳→✅ (BF sale confirmed live). Added OffSec Learn One (20% OFF OSCP+ training). 272 total deals.
 - **Nov 19** — Big update pass: flipped 5 deals ⏳→✅ (DataCamp 60% OFF, Scalenut 65% OFF, Pictory 50% OFF, CodedThemes 60% OFF, Ableton 20% OFF + free Live 13 upgrade). Added 7 new deals: Abstract API, FormBold, DocuGenerate, Higgsfield, Coupler.io, 1minAI. Updated Whoop details. Amazon & Best Buy BF events now live. 266 total deals.
 - **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. Deduplicated 11 entries appearing in multiple categories. 260 total deals.
 - **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
@@ -119,8 +120,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Chronoid](https://www.chronoid.app/) | Time tracking for Mac with auto-categorization | 💸 **50% OFF** Lifetime $149 → $74.50 — code `BLACKFRIDAY26` (Nov 3 – Dec 2) | ✅ |
 | [Abstract API](https://www.abstractapi.com/) | Developer APIs — IP geolocation, email validation, VAT | **20% OFF** any plan — code `BLACK20` (Nov 17 – Dec 10) | ✅ |
 | [FormBold](https://formbold.com/) | Form backend & API service | **30% OFF** yearly plans — code `BLFCM2026` (Nov 17 – Dec 1) | ✅ |
-| [DocuGenerate](https://docugenerate.com/) | Document generation API | **50% OFF** all plans | ✅
-| [BundleWP](https://bundlewp.com/complete-business-software-bundle/) | Complete Business Software Bundle: FoodFleet, ShopKart, Billify, Auto Lead Pilot AI, Site Commander MCP, Pro Fin Suite, DataXtract Pro, WooFlow Manager, Fin Tools Theme, All In One Smart Extractor, Orbit Meet. Lifetime access, license keys delivered automatically. | **87% OFF** — $129 one-time (regular $1,029), code `BUNDLE129`, no expiry | ✅ |
+| [DocuGenerate](https://docugenerate.com/) | Document generation API | **50% OFF** all plans | ✅ |
+| [BundleWP](https://bundlewp.com/complete-business-software-bundle/) | 11-app business software bundle (invoicing, POS, AI leads, MCP) | 💸 **87% OFF** lifetime — $129 one-time (reg $1,029), code `BUNDLE129` | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -150,6 +151,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Wireshark Labs](https://www.wiresharklabs.com/) | Wireshark Certified Associate labs | 💸 **50% OFF** WCA Labs ($99.99) — starts Nov 23 | ⏳ |
 | [White Knight Labs](https://whiteknightlabs.com/) | Offensive security certs (ARTOC, ODPC) | 💸 **50% OFF** all certs — starts Nov 27 | ⏳ |
 | [OnlySecurity](https://onlysecurity.io/) | Cybersecurity courses & labs | **15% OFF** courses, Plus, Max — starts Nov 23 | ⏳ |
+| [OffSec (OSCP)](https://www.offsec.com/) | OSCP+ training, PEN-200, labs & 2 exam attempts | **20% OFF** Learn One — $2,199/yr (reg $2,749, through Jan 4, 2027) | ✅ |
 | [Modern Security AI Cert](https://modernsecurity.ai/) | AI security certification | **20% OFF** AI security cert | ✅ |
 
 ### VPN Services
@@ -268,7 +270,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Udemy](https://www.udemy.com/) | Massive course catalog | Courses from **$9.99** (up to 85% off, ~Nov 25–28) | ⏳ |
 | [Coursera Plus](https://www.coursera.org/) | 7,000+ courses all-access | **40% OFF** annual — $239.40/yr (reg $399, ends Nov 30) | ✅ |
 | [DataCamp](https://www.datacamp.com/) | Data science, Python, R, SQL | **60% OFF** Premium annual — $132/yr (reg $330, through Nov 29) | ✅ |
-| [Educative.io](https://www.educative.io/) | Interactive text-based coding courses | **72% OFF** unlimited plans | ⏳ |
+| [Educative.io](https://www.educative.io/) | Interactive text-based coding courses | **72% OFF** unlimited plans | ✅ |
 | [Codecademy Pro](https://www.codecademy.com/) | Interactive coding lessons | **50% OFF** Pro Annual (Nov 21 – Dec 28) | ⏳ |
 | [Pluralsight](https://www.pluralsight.com/) | Tech skills (cloud, security, dev) | ~50% OFF | ⏳ |
 | [MasterClass](https://www.masterclass.com/) | Celebrity-taught classes | **50% OFF** | ⏳ |
