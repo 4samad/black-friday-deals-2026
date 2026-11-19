@@ -178,6 +178,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Guard by OffSeq](https://guard.report/monitoring) | Website security and NIS2/GDPR scan with monitoring | **50% OFF** full report and first month of monitoring, applied automatically (ends Dec 1) | ✅ |
 | [OffSeq Pulse](https://pulse.offseq.com/pricing) | Device posture agent for NIS2 and CIS v8.1, hosted in Germany | **50% OFF** first year or month for new customers, applied automatically (ends Dec 2) | ✅ |
 | [anon.li](https://anon.li/) | Privacy tools: email aliases, E2E encrypted file sharing | **40% OFF** all paid plans 12 months — code `BLKFRI40` (Nov 2 – Dec 6) | ✅ |
+| [Noviscan](https://secufor.net/black-week/) | Face recognition for IP cameras, analysed locally (Win/Mac/Linux) | **30-day free trial** of Premium — code `BLACKFRIDAY26` (Nov 23 – Nov 30) | ✅ |
 
 ## ☁️ Cloud, Hosting & Domains
 
