@@ -1,12 +1,12 @@
 # 🔥 Awesome Black Friday & Cyber Monday Deals 2026
 
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2019%2C%202026-brightgreen)](#)
-[![Deals](https://img.shields.io/badge/Total%20Deals-273-blue)](#)
+[![Deals](https://img.shields.io/badge/Total%20Deals-286-blue)](#)
 [![Categories](https://img.shields.io/badge/Categories-12-orange)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 273 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
+The **largest curated collection** of Black Friday & Cyber Monday 2026 deals — 286 verified deals across 12 categories for developers, designers, cybersecurity professionals, gamers, and tech enthusiasts.
 
 > 🌐 **[Browse the deals on our website](https://shashankt255.github.io/black-friday-deals-2026/)** — searchable, filterable, mobile-friendly
 
@@ -36,7 +36,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 
 ### 🆕 What's New (Updated Daily)
 
-- **Nov 19 (PM)** — Merged 3 community PRs: Relaybrook, Dar Templates, BundleWP. Flipped Educative.io ⏳→✅ (BF sale confirmed live). Added OffSec Learn One (20% OFF OSCP+ training). 272 total deals.
+- **Nov 19 (PM)** — Competitor cross-reference: added 13 deals from InfoSec & dev BF repos (CyberGhost, IPVanish, PureVPN, Proton Mail, Tuta, Yubico, Hak5, Hexordia, Iximiuz Labs, Porkbun, GL.iNet, UGREEN NAS, ByteByteGo, Tailwind Plus, Polypane). 286 total deals.
+- **Nov 19 (AM2)** — Merged 3 community PRs: Relaybrook, Dar Templates, BundleWP. Flipped Educative.io ⏳→✅ (BF sale confirmed live). Added OffSec Learn One (20% OFF OSCP+ training). 272 total deals.
 - **Nov 19** — Big update pass: flipped 5 deals ⏳→✅ (DataCamp 60% OFF, Scalenut 65% OFF, Pictory 50% OFF, CodedThemes 60% OFF, Ableton 20% OFF + free Live 13 upgrade). Added 7 new deals: Abstract API, FormBold, DocuGenerate, Higgsfield, Coupler.io, 1minAI. Updated Whoop details. Amazon & Best Buy BF events now live. 266 total deals.
 - **Nov 18** — Merged 4 community PRs + 7 new deals from competitor cross-reference (Tower, Pulsetic, JSON2Video, Wins, Chronoid, AI Toolbox, Atmos). Added region filters (🇺🇸 🇬🇧 🇮🇳 🇨🇦 🇪🇺 🇩🇪 🇦🇺) and student 🎓 filter to website. Flipped ⏳→✅: Nintendo Switch 2 bundle, Garmin Forerunner 265. Deduplicated 11 entries appearing in multiple categories. 260 total deals.
 - **Nov 17** — 13 cybersec training deals added: CyberWarFare Labs (91% OFF!), Blue Cape Security, MalDev Academy, HackTricks Training, Practical TLS (83% OFF lifetime), Wireshark Labs, White Knight Labs, RedTeamLeaders, Blu Raven Academy, Just Hacking, OnlySecurity, Modern Security AI Cert + Nintendo Switch 2 bundle
@@ -122,6 +123,8 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [FormBold](https://formbold.com/) | Form backend & API service | **30% OFF** yearly plans — code `BLFCM2026` (Nov 17 – Dec 1) | ✅ |
 | [DocuGenerate](https://docugenerate.com/) | Document generation API | **50% OFF** all plans | ✅ |
 | [BundleWP](https://bundlewp.com/complete-business-software-bundle/) | 11-app business software bundle (invoicing, POS, AI leads, MCP) | 💸 **87% OFF** lifetime — $129 one-time (reg $1,029), code `BUNDLE129` | ✅ |
+| [Tailwind Plus](https://tailwindcss.com/plus) | Official Tailwind UI components & templates | **Over 33% OFF** (through Dec 1) | ✅ |
+| [Polypane](https://polypane.app/) | Responsive & accessibility testing browser for developers | **25% OFF** all plans (through Dec 1) | ✅ |
 
 ## 🔒 Cybersecurity & Privacy
 
@@ -153,6 +156,9 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [OnlySecurity](https://onlysecurity.io/) | Cybersecurity courses & labs | **15% OFF** courses, Plus, Max — starts Nov 23 | ⏳ |
 | [OffSec (OSCP)](https://www.offsec.com/) | OSCP+ training, PEN-200, labs & 2 exam attempts | **20% OFF** Learn One — $2,199/yr (reg $2,749, through Jan 4, 2027) | ✅ |
 | [Modern Security AI Cert](https://modernsecurity.ai/) | AI security certification | **20% OFF** AI security cert | ✅ |
+| [Hak5](https://hak5.org/pages/hacked-november) | Pentest & red team hardware (WiFi Pineapple, Rubber Ducky, etc.) | BF discounts on pentest gadgets (through Nov 30) | ✅ |
+| [Hexordia](https://learn.hexordia.com/) | DFIR and forensics training | **35% OFF** classes & vouchers — code `26BF35` (Nov 23 – Dec 7) | ✅ |
+| [Iximiuz Labs](https://labs.iximiuz.com/) | Browser-based Linux, containers & Kubernetes playgrounds | Discounted Lifetime and Annual plans (through Nov 30) | ✅ |
 
 ### VPN Services
 
@@ -162,6 +168,9 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Proton VPN](https://protonvpn.com/) | Privacy-focused Swiss VPN, open-source | **75% OFF** 2-year Plus plan (~$2.49/mo) — ends Nov 30 | ✅ |
 | [Surfshark](https://surfshark.com/) | Unlimited devices VPN | **Up to 87% OFF** + 3 months free (~$2.49/mo) | ✅ |
 | [ExpressVPN](https://expressvpn.com/) | Premium VPN with Lightway protocol | **Up to 80% OFF** + 4 bonus months (~$2.99/mo) | ✅ |
+| [CyberGhost](https://www.cyberghostvpn.com/) | VPN with 11,500+ servers, 100 countries | **83% OFF** 28-month plan — $61.32 total (~$2.19/mo) | ✅ |
+| [IPVanish](https://www.ipvanish.com/) | VPN with unlimited devices | From **$2.19/mo** on 2-year plan | ✅ |
+| [PureVPN](https://www.purevpn.com/) | VPN with 6,500+ servers, 65 countries | **87% OFF** 5-year plan — $101.55 total (~$1.69/mo) | ✅ |
 
 ### Password Managers & Security
 
@@ -179,6 +188,9 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [OffSeq Pulse](https://pulse.offseq.com/pricing) | Device posture agent for NIS2 and CIS v8.1, hosted in Germany | **50% OFF** first year or month for new customers, applied automatically (ends Dec 2) | ✅ |
 | [anon.li](https://anon.li/) | Privacy tools: email aliases, E2E encrypted file sharing | **40% OFF** all paid plans 12 months — code `BLKFRI40` (Nov 2 – Dec 6) | ✅ |
 | [Noviscan](https://secufor.net/black-week/) | Face recognition for IP cameras, analysed locally (Win/Mac/Linux) | **30-day free trial** of Premium — code `BLACKFRIDAY26` (Nov 23 – Nov 30) | ✅ |
+| [Proton Mail](https://proton.me/mail/black-friday) | E2E encrypted email & calendar (Swiss) | **50% OFF** annual subscription (through Nov 30) | ✅ |
+| [Tuta](https://tuta.com/black-friday) | E2E encrypted email & calendar (Germany) | **12 months free** on Revolutionary/Legend plans — 2 for 1 (through Nov 30) | ✅ |
+| [Yubico](https://www.yubico.com/) | YubiKey hardware security keys | Sale starts Nov 19 (through Nov 30) | ⏳ |
 
 ## ☁️ Cloud, Hosting & Domains
 
@@ -215,6 +227,7 @@ The **largest curated collection** of Black Friday & Cyber Monday 2026 deals —
 | [Namecheap](https://www.namecheap.com/) | .com + free WHOIS privacy for life | **Up to 97% OFF** bundles | ⏳ |
 | [Cloudflare Registrar](https://www.cloudflare.com/) | Domains at wholesale cost | No sale — always at cost ($11.17 .com) | ℹ️ |
 | [Koofr](https://koofr.eu/) | EU privacy-focused cloud storage (GDPR) | **55% OFF** — code `BF2026` | ✅ |
+| [Porkbun](https://porkbun.com/) | Domain registrar with rolling BF deals | New deal drops Nov 19, 23, 27 (through Dec 4) | ✅ |
 
 ## 🤖 AI & ML Tools
 
@@ -275,6 +288,7 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 | [Codecademy Pro](https://www.codecademy.com/) | Interactive coding lessons | **50% OFF** Pro Annual (Nov 21 – Dec 28) | ⏳ |
 | [Pluralsight](https://www.pluralsight.com/) | Tech skills (cloud, security, dev) | ~50% OFF | ⏳ |
 | [MasterClass](https://www.masterclass.com/) | Celebrity-taught classes | **50% OFF** | ⏳ |
+| [ByteByteGo](https://bytebytego.com/) | System design interview prep by Alex Xu | **50% OFF** annual | ✅ |
 | [LabEx Pro (1 Year)](https://labex.io/checkout?type=2&coupon=2026BF30) | Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud | **30% OFF** — **$69.90** with code `2026BF30` (active now; ends Dec 7) | ✅ |
 | [LabEx Pro (2 Years)](https://labex.io/checkout?type=4&coupon=2026BF50) | Browser-based hands-on labs for Linux, DevOps, Cybersecurity, and Cloud | **50% OFF** — **$99.90** with code `2026BF50` (active now; ends Dec 7) | ✅ |
 | [CyberWarFare Labs](https://cyberwarfare.live/) | Hands-on cybersecurity training, practical labs, and industry-relevant certifications across Red Team, Blue Team, Cloud Security, AI Security, and more. | **Up to 90% OFF** bundles · Certifications from $5 · Infinity Yearly $49 with 2 free certifications. Coupons: `INFINITY49` (Yearly), `INFINITY5` (Monthly). (Nov 12 – Dec 1, 2026) | ✅ |
@@ -501,6 +515,8 @@ GitHub Copilot, Cursor, Tabnine, Midjourney, OpenAI/ChatGPT, Anthropic/Claude, G
 |---------|-------------|------|--------|
 | Ubiquiti UniFi | Gateways, switches, APs, cameras | Free shipping + price cuts expected | ⏳ |
 | Synology DS923+ | 4-bay NAS | ~$480 (street ~$570) | ⏳ |
+| [GL.iNet](https://www.gl-inet.com/) | OpenWrt travel routers & VPN gateways | **Up to 20% OFF** (Nov 19 – Nov 30) | ✅ |
+| [UGREEN NAS](https://ai.ugreen.com/) | NAS devices with AI features | **Up to 31% OFF** NAS, 32% OFF NAS+UPS bundles (through Nov 30) | ✅ |
 
 ## 💰 Finance & Business
 
